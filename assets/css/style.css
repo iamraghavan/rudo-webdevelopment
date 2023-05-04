@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700);
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root {
     --bs-gray-100: #fefefe;
     --bs-gray-200: #f6f7f9;
@@ -160,6 +164,7 @@
     --bs-highlight-bg: #fef1de;
 
     --bs-background-rudo-color: #01001a;
+    --bs-light-rudo: #838383;
 }
 
 *,
@@ -13796,7 +13801,12 @@ fieldset:disabled .btn {
 
 .bg-rudo {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bg-background-rudo-color), var(--bs-bg-opacity)) !important
+    background-color: rgba(var(--bs-background-rudo-color), var(--bs-bg-opacity)) !important
+}
+
+.bg-rudo-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rudo), var(--bs-bg-opacity)) !important
 }
 
 .bg-gray {
@@ -28369,7 +28379,7 @@ h6 {
 .underline-3.style-1:before {
     content: "";
     z-index: -1;
-    border: 3px solid #3f78e0;
+    border: 5px solid #3f78e0;
     position: absolute;
     left: 50%;
     top: 52%;
@@ -31092,10 +31102,10 @@ blockquote.text-center.icon-top:before {
 
 .icon-list.bullet-bg i {
     border-radius: 100%;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     top: .2rem;
-    font-size: .8rem;
+    font-size: 1.8rem;
     line-height: 1;
     letter-spacing: normal;
     text-align: center;
@@ -40997,8 +41007,8 @@ img.svg-inject {
 
 .icon-svg,
 .icon-svg.icon-svg-lg {
-    width: 3rem;
-    height: 3rem
+    width: 5rem;
+    height: 5rem
 }
 
 .icon-svg.icon-svg-md {
