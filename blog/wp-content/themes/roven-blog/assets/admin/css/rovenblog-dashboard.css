@@ -1,0 +1,666 @@
+/*
+ * RovenBlog Theme Dashboard
+ */
+/* ==========================================================================
+   =Components
+   ========================================================================== */
+/* =Buttons
+   ========================================================================== */
+/* =Badges
+   ========================================================================== */
+.rb-badge {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.rb-badge-info {
+  background-color: #f8f9fd;
+  color: #000000;
+}
+
+.rb-badge-pro {
+  background-color: #2E2D4D;
+  color: #ffffff;
+}
+
+/* =Hero Section
+   ========================================================================== */
+.rb-dashboard-hero {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px 15px 0;
+  margin-bottom: 20px;
+}
+
+.notice .rb-dashboard-hero {
+  padding: 15px 15px 0;
+  margin-bottom: -5px;
+  border-radius: 0;
+}
+
+/*
+ * 1. Clearfix hack 
+ */
+.rb-dashboard-hero:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.rb-dashboard-hero-greating {
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.rb-dashboard-hero-title {
+  color: #1e1e1e;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.rb-dashboard-hero-description {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.rb-dashboard-hero-actions {
+  margin-bottom: 15px;
+}
+
+.rb-dashboard-hero-content-right img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (min-width: 783px) {
+  .notice .rb-dashboard-hero {
+    margin-bottom: -1px;
+  }
+}
+@media (min-width: 1024px) {
+  .rb-dashboard-hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .rb-dashboard-hero-content-left {
+    width: 55%;
+  }
+  .rb-dashboard-hero-content-right {
+    width: 40%;
+  }
+}
+@media (min-width: 1400px) {
+  .rb-dashboard-hero {
+    padding: 30px 30px 0;
+    margin-bottom: 20px;
+  }
+}
+/* =Link with icon
+   ========================================================================== */
+.rb-dashboard-link i {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* =Panel
+   ========================================================================== */
+.rb-dashboard-panel {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.rb-dashboard-panel-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 3px solid #F0F0F1;
+  padding: 15px;
+}
+
+.rb-dashboard-panel-header-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.rb-dashboard-panel-content {
+  padding: 20px 15px;
+}
+
+.rb-dashboard-panel-content > div > *:first-child,
+.rb-dashboard-panel-content > *:first-child {
+  margin-top: 0;
+}
+
+.rb-dashboard-panel-content > div > *:last-child,
+.rb-dashboard-panel-content > *:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1280px) {
+  .rb-dashboard-panel-header {
+    padding: 20px 20px;
+  }
+  .rb-dashboard-panel-content {
+    padding: 20px 20px;
+  }
+  .rb-dashboard-panel:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .rb-dashboard-panel-header {
+    padding: 15px 30px;
+  }
+  .rb-dashboard-panel-content {
+    padding: 30px;
+  }
+}
+/* =Tabs
+   ========================================================================== */
+.rb-dashboard-tabs {
+  list-style: none;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+/*
+ * 1. Clearfix hack 
+ */
+.rb-dashboard-tabs:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.rb-dashboard-tabs li {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.rb-dashboard-tabs li:last-child {
+  padding-bottom: 0;
+}
+
+.rb-dashboard-tabs a {
+  border-radius: 8px;
+  background-color: #f8f9fd;
+  padding: 12px 15px;
+  display: block;
+  text-decoration: none;
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+.rb-dashboard-tabs a.selected {
+  color: #ffffff;
+  background-color: #2E2D4D;
+}
+
+@media (min-width: 783px) {
+  .rb-dashboard-tabs li {
+    display: inline-block;
+    padding: 0 2px 0 0;
+  }
+}
+@media (min-width: 900px) {
+  .rb-dashboard-tabs li {
+    padding: 0 10px 0 0;
+  }
+}
+/* =Cards
+   ========================================================================== */
+.rb-dashboard-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #c3c4c7;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.rb-card-grid .rb-dashboard-card {
+  height: 100%;
+}
+
+.rb-dashboard-card-header {
+  border-bottom: 1px solid #F0F0F1;
+  position: relative;
+}
+
+.rb-dashboard-card-header img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.rb-dashboard-card-content {
+  padding: 15px;
+}
+
+.rb-dashboard-card-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.rb-dashboard-card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+.rb-dashboard-card-title img {
+  margin-right: 15px;
+}
+
+.rb-dashboard-card-title .rb-badge {
+  padding: 3px 12px;
+  font-size: 0.75rem;
+  margin-left: 10px;
+}
+
+.rb-dashboard-card-description {
+  margin-bottom: 0;
+}
+
+.rb-dashboard-card-description strong {
+  font-weight: 700;
+}
+
+.rb-dashboard-card-actions {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.rb-dashboard-card-actions ul {
+  list-style: none;
+  width: 100%;
+}
+
+/*
+ * 1. Clearfix hack 
+ */
+.rb-dashboard-card-actions:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.rb-dashboard-card-actions li {
+  margin-bottom: 5px;
+}
+
+.rb-dashboard-card-actions li a {
+  text-decoration: none;
+  line-height: 3;
+  border-bottom: 1px solid #F0F0F1;
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+.rb-dashboard-card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: auto;
+  border-top: 1px solid #F0F0F1;
+  padding: 15px 15px;
+  font-weight: 600;
+}
+
+@media (min-width: 783px) {
+  .rb-dashboard-card-actions li {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+@media (min-width: 1366px) {
+  .rb-dashboard-card-content {
+    padding: 30px;
+  }
+  .rb-dashboard-card-footer {
+    padding: 15px 30px;
+  }
+}
+/* Fixes for the cards to work ok with WordPress Install Plugin Buttons in them */
+.rb-card-grid .rb-dashboard-card {
+  width: 100%;
+}
+
+.rb-card-grid .rb-dashboard-card.plugin-card .action-links {
+  position: static;
+  top: auto;
+  right: auto;
+  width: auto;
+}
+
+/* =comparisson table
+   ========================================================================== */
+.rb-dashboard-comparison {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.rb-dashboard-comparison table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #c3c4c7;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.rb-dashboard-comparison th,
+.rb-dashboard-comparison td {
+  text-align: center;
+  padding: 15px;
+}
+
+.rb-dashboard-comparison th:first-child,
+.rb-dashboard-comparison td:first-child {
+  text-align: left;
+}
+
+.rb-dashboard-comparison tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.rb-dashboard-comparison table tr th {
+  background-color: #2E2D4D;
+  color: #ffffff;
+  border: none;
+}
+
+.rb-dashboard-comparison td {
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+  text-align: center;
+}
+
+.rb-dashboard-comparison table td.rb-available {
+  background-image: url("../images/icon-available.png");
+}
+
+.rb-dashboard-comparison table td.rb-not-available {
+  background-image: url("../images/icon-not-available.png");
+}
+
+@media (max-width: 767px) {
+  .rb-dashboard-comparison th,
+.rb-dashboard-comparison td {
+    padding: 10px;
+  }
+}
+/* =Notices
+   ========================================================================== */
+.rb-notice {
+  border: 1px solid #c3c4c7;
+  border-radius: 8px;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.rb-notice:first-child {
+  margin-top: 0;
+}
+
+.rb-notice > *:first-child {
+  margin-top: 0;
+}
+
+.rb-notice > *:last-child {
+  margin-bottom: 0;
+}
+
+.rb-notice p {
+  font-weight: 600;
+}
+
+.rb-notice-success {
+  border-left: 5px solid #01A101;
+}
+
+.rb-notice-error {
+  border-left: 5px solid #D80612;
+}
+
+.rb-notice-warning {
+  border-left: 5px solid #F4C90D;
+}
+
+.rb-notice-info {
+  border-left: 5px solid #c3c4c7;
+}
+
+/* ==========================================================================
+   =Layout
+   ========================================================================== */
+/* =Header
+   ========================================================================== */
+#rb-dashboard-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 0 -20px;
+  padding: 10px 10px 10px 20px;
+  background-color: #ffffff;
+}
+
+#rb-dashboard-header-content-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+#rb-dashboard-header-content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  #rb-dashboard-header {
+    padding: 15px 10px 15px 20px;
+  }
+}
+/* =Content
+   ========================================================================== */
+#rb-dashboard-content-wrap {
+  padding: 20px 10px 0 0;
+}
+
+@media (min-width: 783px) {
+  #rb-dashboard-content-wrap {
+    padding: 20px 20px 0 0;
+  }
+}
+/* Content */
+@media (min-width: 1280px) {
+  #rb-dashboard-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/* Main Content */
+@media (min-width: 1280px) {
+  #rb-dashboard-content-main {
+    width: 70%;
+  }
+  #rb-dashboard-content-main .rb-dashboard-panel {
+    height: 100%;
+  }
+}
+@media (min-width: 1600px) {
+  #rb-dashboard-content-main {
+    width: 80%;
+  }
+}
+/* Sidebar Content */
+@media (min-width: 1280px) {
+  #rb-dashboard-content-sidebar {
+    width: 30%;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+@media (min-width: 1600px) {
+  #rb-dashboard-content-sidebar {
+    width: 20%;
+  }
+}
+/* ==========================================================================
+   =Utilities
+   ========================================================================== */
+.rb-dashboard-hidden {
+  display: none;
+}
+
+.rb-hide {
+  display: none !important;
+}
+
+.rb-card-grid {
+  margin-bottom: 15px;
+}
+
+.rb-card-grid-item:not(:last-child) {
+  padding-bottom: 15px;
+}
+
+.rb-card-grid-item > *:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 650px) {
+  .rb-card-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    gap: 15px;
+  }
+  .rb-card-grid .rb-card-grid-item {
+    -ms-flex-preferred-size: calc(49.9999% - 15px);
+        flex-basis: calc(49.9999% - 15px);
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .rb-card-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    gap: 20px;
+  }
+  .rb-card-grid .rb-card-grid-item {
+    -ms-flex-preferred-size: calc(49.9999% - 10px);
+        flex-basis: calc(49.9999% - 10px);
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .rb-card-grid {
+    gap: 30px;
+  }
+  .rb-card-grid .rb-card-grid-item {
+    -ms-flex-preferred-size: calc(49.9999% - 15px);
+        flex-basis: calc(49.9999% - 15px);
+  }
+}
+@media (min-width: 1600px) {
+  .rb-card-grid .rb-card-grid-item {
+    -ms-flex-preferred-size: calc(33% - 16px);
+        flex-basis: calc(33% - 16px);
+  }
+}
+/* ==========================================================================
+   =Extras / Fixes
+   ========================================================================== */
+/*
+   * 1. Install button arrow color
+*/
+.rb-action-links .button-primary.updating-message:before {
+  color: #d63638; /* 1 */
+}

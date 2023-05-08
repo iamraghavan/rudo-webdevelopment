@@ -1,0 +1,1405 @@
+/* ==========================================================================
+   =CSS Variables
+   ========================================================================== */
+:root {
+  --max-width-content: 1230px;
+  --max-width-content-fullwidth: 100%;
+  --max-width-content-no-sidebar: 820px;
+  --sticky-offset: 80px;
+  --border-radius-default: 4px;
+  --border-radius-inputs: 4px;
+  --border-radius-buttons: 4px;
+  --color-accent-1: #2E2D4D;
+  --color-accent-2: #D50747;
+  --color-muted: #777;
+  --color-text: #000000;
+  --color-headings: #111111;
+  --border-color: #ddd;
+  --background-color: #f4f4f4;
+  --color-form-elements: #000000;
+  --color-form-placeholders: #94979e;
+  --color-form-labels: #45464b;
+  --background-color-form-elements: #ffffff;
+  --background-color-form-elements-disabled: #f4f4f4;
+  --border-color-form-elements: #ddd;
+  --border-color-form-elements-focus: #bbb;
+  --color-link: #2E2D4D;
+  --color-link-hover: #D50747;
+  --color-link-active: #D50747;
+  --font-base-size: 17px;
+  --font-scale: 1.067;
+  --font-family-body: "DM Sans", sans-serif;
+  --font-size-body: 1rem;
+  --font-weight-body: 400;
+  --line-height-body: 1.765;
+  --letter-spacing-body: 0;
+  --font-size-1: calc( var(--font-size-body) / var(--font-scale) / var(--font-scale) );
+  --font-size-2: calc( var(--font-size-body) / var(--font-scale) );
+  --font-size-3: var(--font-size-body);
+  --font-size-4: calc( var(--font-size-3) * var(--font-scale) );
+  --font-size-5: calc( var(--font-size-4) * var(--font-scale) );
+  --font-size-6: calc( var(--font-size-5) * var(--font-scale) );
+  --font-size-7: calc( var(--font-size-6) * var(--font-scale) );
+  --font-size-8: calc( var(--font-size-7) * var(--font-scale) );
+  --font-size-9: calc( var(--font-size-8) * var(--font-scale) );
+  --font-size-10: calc( var(--font-size-9) * var(--font-scale) );
+  --font-size-11: calc( var(--font-size-10) * var(--font-scale) );
+  --font-family-headings: "Poppins", sans-serif;
+  --font-weight-headings: 700;
+  --line-height-headings: 1.3;
+  --letter-spacing-headings: 0.4px;
+  --font-size-h1: var(--font-size-8);
+  --font-size-h2: var(--font-size-7);
+  --font-size-h3: var(--font-size-6);
+  --font-size-h4: var(--font-size-5);
+  --font-size-h5: var(--font-size-4);
+  --font-size-h6: var(--font-size-3);
+  --font-spacing-unit: calc( var(--font-size-body) * var(--line-height-body) );
+  --font-spacing-1: calc( var(--font-spacing-unit) / 8 );
+  --font-spacing-2: calc( var(--font-spacing-unit) / 4 );
+  --font-spacing-3: calc( var(--font-spacing-unit) / 2 );
+  --font-spacing-4: var(--font-spacing-unit);
+  --font-spacing-5: calc( var(--font-spacing-unit) * 1.5 );
+  --font-spacing-6: calc( var(--font-spacing-unit) * 2 );
+  --font-spacing-7: calc( var(--font-spacing-unit) * 2.5 );
+  --font-spacing-8: calc( var(--font-spacing-unit) * 3 );
+  --spacing-unit: calc( var(--font-size-body) * var(--line-height-body) );
+  --spacing-1: calc( var(--spacing-unit) / 8 );
+  --spacing-2: calc( var(--spacing-unit) / 4 );
+  --spacing-3: calc( var(--spacing-unit) / 2 );
+  --spacing-4: var(--spacing-unit);
+  --spacing-5: calc( var(--spacing-unit) * 1.5 );
+  --spacing-6: calc( var(--spacing-unit) * 2 );
+  --spacing-7: calc( var(--spacing-unit) * 2.5 );
+  --spacing-8: calc( var(--spacing-unit) * 3 );
+  --spacing-9: calc( var(--spacing-unit) * 3.5 );
+  --spacing-10: calc( var(--spacing-unit) * 4 );
+  --spacing-11: calc( var(--spacing-unit) * 4.5 );
+  --spacing-12: calc( var(--spacing-unit) * 5 );
+  --background-color-body: #ffffff;
+  --background-color-header-top: var(--background-color-body);
+  --color-cta: #ffffff;
+  --color-cta-hover: #ffffff;
+  --font-family-cta: "DM Sans", sans-serif;
+  --font-weight-cta: 700;
+  --background-color-cta: var(--color-accent-1);
+  --border-color-cta: var(--color-accent-1);
+  --background-color-cta-button: var(--color-accent-2);
+  --color-cta-button: #ffffff;
+  --background-color-header: var(--background-color-body);
+  --z-index-header-sticky: 9999;
+  --box-shadow-header: 0px 0px 15px #0000001a;
+  --color-logo: var(--color-accent-2);
+  --font-family-logo: "DM Sans", sans-serif;
+  --font-weight-logo: 700;
+  --letter-spacing-logo: -1.5px;
+  --font-size-logo-mobile: var(--font-size-11);
+  --font-size-logo-tablet: var(--font-size-11);
+  --font-size-logo-desktop: var(--font-size-11);
+  --font-size-logo-mobile-sticky: var(--font-size-11);
+  --font-size-logo-tablet-sticky: var(--font-size-9);
+  --font-size-logo-desktop-sticky: var(--font-size-9);
+  --max-height-logo-mobile: var(--spacing-6);
+  --max-height-logo-tablet: var(--spacing-7);
+  --max-height-logo-desktop: var(--spacing-8);
+  --max-height-logo-mobile-sticky: var(--spacing-6);
+  --max-height-logo-tablet-sticky: var(--spacing-6);
+  --max-height-logo-desktop-sticky: var(--spacing-5);
+  --color-header-icons: var(--color-text);
+  --color-header-icons-hover: var(--color-accent-2);
+  --font-size-header-icons-mobile: var(--font-size-8);
+  --font-size-header-icons-tablet: var(--font-size-7);
+  --font-size-header-icons-desktop: var(--font-size-7);
+  --color-menu: var(--color-text);
+  --color-menu-hover: var(--color-accent-2);
+  --text-transform-menu: uppercase;
+  --font-size-menu: var(--font-size-3);
+  --line-height-menu: 2.75;
+  --line-height-menu-sticky: 2;
+  --font-family-menu: "DM Sans", sans-serif;
+  --font-weight-menu: 700;
+  --spacing-menu: var(--spacing-3);
+  --logo-padding-bottom: var(--spacing-5);
+  --color-submenu: var(--color-text);
+  --color-submenu-hover: var(--color-accent-2);
+  --background-color-submenu: #ffffff;
+  --border-color-submenu: transparent;
+  --box-shadow-submenu: 0 10px 40px #00000020;
+  --text-transform-submenu: none;
+  --font-size-submenu: var(--font-size-2);
+  --line-height-submenu: 2.2;
+  --font-family-submenu: "DM Sans", sans-serif;
+  --font-weight-submenu: 400;
+  --main-content-width: 66.66666666%;
+  --sidebar-width: 33.33333333%;
+  --card-aspect-ratio-hero: 125%;
+  --card-aspect-ratio-square: 125%;
+  --card-aspect-ratio-portrait: 125%;
+  --card-aspect-ratio-landscape: 125%;
+  --background-color-card-1-title: #ffffff;
+  --background-color-card-2-3-content: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  --background-color-card-6-content: #ffffff;
+  --background-color-card-7-content: #ffffff;
+  --background-color-scroll-progress: var(--color-accent-2);
+  --z-index-scroll-progress: 9999999;
+  --background-color-footer-top: var(--background-color-body);
+  --background-color-footer: var(--background-color-body);
+  --background-color-footer-bottom: var(--background-color-body);
+  --background-color-backlink: var(--background-color-body);
+  --background-color-site-overlay: rgba(0, 0, 0, 0.75);
+  --background-color-mobile-menu-wrap: var(--background-color-body);
+  --z-index-site-overlay: 10000;
+  --z-index-mobile-menu-wrap: 10001;
+  --text-transform-mobile-menu: uppercase;
+  --text-transform-mobile-submenu: none;
+  --font-family-mobile-menu: "DM Sans", sans-serif;
+  --font-weight-mobile-menu: 700;
+  --font-family-mobile-submenu: "DM Sans", sans-serif;
+  --font-weight-mobile-submenu: 400;
+  --z-index-back-to-top: 1010;
+}
+
+.rb-dark-mode {
+  --color-accent-1: #2E2D4D;
+  --color-accent-2: #D50747;
+  --color-muted: #555;
+  --color-text: #999;
+  --color-headings: #fff;
+  --border-color: #494949;
+  --background-color: #333333;
+  --color-form-elements: #777;
+  --color-form-placeholders: #666;
+  --color-form-labels: #777;
+  --background-color-form-elements: #1c1c1c;
+  --background-color-form-elements-disabled: #222222;
+  --border-color-form-elements: #494949;
+  --border-color-form-elements-focus: #494949;
+  --color-link: #ffffff;
+  --color-link-hover: #f8f8f8;
+  --color-link-active: #f8f8f8;
+  --background-color-body: #1c1c1c;
+  --color-cta: #ffffff;
+  --color-cta-hover: #ffffff;
+  --background-color-cta: var(--color-accent-1);
+  --border-color-cta: var(--color-accent-1);
+  --background-color-cta-button: var(--color-accent-2);
+  --color-cta-button: #ffffff;
+  --background-color-header-top: var(--background-color-body);
+  --background-color-header: var(--background-color-body);
+  --box-shadow-header: 0px 0px 15px #0000001a;
+  --color-logo: var(--color-accent-2);
+  --color-header-icons: var(--color-headings);
+  --color-header-icons-hover: var(--color-accent-2);
+  --color-menu: var(--color-headings);
+  --color-menu-hover: var(--color-accent-2);
+  --color-submenu: var(--color-text);
+  --color-submenu-hover: var(--color-accent-2);
+  --background-color-submenu: #333333;
+  --border-color-submenu: transparent;
+  --box-shadow-submenu: 0 10px 40px #00000020;
+  --background-color-card-1-title: #444;
+  --background-color-card-2-3-content: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  --background-color-card-6-content: #444;
+  --background-color-card-7-content: #444;
+  --background-color-scroll-progress: var(--color-accent-2);
+  --background-color-footer-top: var(--background-color-body);
+  --background-color-footer: var(--background-color-body);
+  --background-color-footer-bottom: var(--background-color-body);
+  --background-color-backlink: var(--background-color-body);
+  --background-color-site-overlay: rgba(0, 0, 0, 0.25);
+  --background-color-mobile-menu-wrap: var(--background-color-body);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-scale: 1.125;
+    --card-aspect-ratio-hero: 42.553%;
+    --card-aspect-ratio-square: 100%;
+    --card-aspect-ratio-portrait: 150%;
+    --card-aspect-ratio-landscape: 66.667%;
+  }
+  .rb-grid.cols-2,
+.rb-grid.cols-3,
+.rb-grid.cols-4,
+.rb-masonry-grid.cols-2,
+.rb-masonry-grid.cols-3,
+.rb-masonry-grid.cols-4 {
+    --card-aspect-ratio-hero: 100%;
+    --card-aspect-ratio-landscape: 100%;
+  }
+  .rb-grid.cols-3.mixed .rb-grid-item:nth-child(3n) {
+    --card-aspect-ratio-hero: 42.553%;
+    --card-aspect-ratio-landscape: 66.667%;
+  }
+}
+@media (min-width: 992px) {
+  :root,
+.rb-grid.cols-2,
+.rb-grid.cols-3,
+.rb-grid.cols-4,
+.rb-masonry-grid.cols-2,
+.rb-masonry-grid.cols-3,
+.rb-masonry-grid.cols-4 {
+    --card-aspect-ratio-hero: 66.667%;
+    --card-aspect-ratio-square: 100%;
+    --card-aspect-ratio-portrait: 150%;
+    --card-aspect-ratio-landscape: 66.667%;
+  }
+  .rb-grid.cols-3.mixed .rb-grid-item:nth-child(3n) {
+    --card-aspect-ratio-hero: 42.553%;
+    --card-aspect-ratio-landscape: 66.667%;
+  }
+}
+@media (min-width: 1200px) {
+  :root,
+.rb-grid.cols-1,
+.rb-grid.cols-2,
+.rb-grid.cols-3,
+.rb-grid.cols-4,
+.rb-masonry-grid.cols-1,
+.rb-masonry-grid.cols-2,
+.rb-masonry-grid.cols-3,
+.rb-masonry-grid.cols-4,
+.rb-grid.cols-3.mixed .rb-grid-item:nth-child(3n) {
+    --card-aspect-ratio-hero: 42.553%;
+    --card-aspect-ratio-square: 100%;
+    --card-aspect-ratio-portrait: 150%;
+    --card-aspect-ratio-landscape: 66.667%;
+  }
+}
+html {
+  font-size: var(--font-base-size);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper {
+  color: var(--color-text);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h1,
+.edit-post-visual-editor .editor-styles-wrapper h2,
+.edit-post-visual-editor .editor-styles-wrapper h3,
+.edit-post-visual-editor .editor-styles-wrapper h4,
+.edit-post-visual-editor .editor-styles-wrapper h5,
+.edit-post-visual-editor .editor-styles-wrapper h6 {
+  color: var(--color-headings);
+  font-family: var(--font-family-headings);
+  font-weight: var(--font-weight-headings);
+  line-height: var(--line-height-headings);
+  letter-spacing: var(--letter-spacing-headings);
+  margin-top: var(--font-spacing-4);
+  margin-bottom: var(--font-spacing-4);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h1 {
+  font-size: var(--font-size-h1);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h2 {
+  font-size: var(--font-size-h2);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h3 {
+  font-size: var(--font-size-h3);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h4 {
+  font-size: var(--font-size-h4);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h5 {
+  font-size: var(--font-size-h5);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h6 {
+  font-size: var(--font-size-h6);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper h1:first-child,
+.edit-post-visual-editor .editor-styles-wrapper h2:first-child,
+.edit-post-visual-editor .editor-styles-wrapper h3:first-child,
+.edit-post-visual-editor .editor-styles-wrapper h4:first-child,
+.edit-post-visual-editor .editor-styles-wrapper h5:first-child,
+.edit-post-visual-editor .editor-styles-wrapper h6:first-child {
+  margin-top: 0 !important;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper p {
+  margin-bottom: var(--font-spacing-unit);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper strong {
+  font-weight: bolder;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper em {
+  font-style: italic;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper small {
+  font-size: var(--font-size-2);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper big {
+  font-size: var(--font-size-4);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper sub {
+  font-size: var(--font-size-1);
+  vertical-align: sub;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper sup {
+  font-size: var(--font-size-1);
+  vertical-align: super;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper abbr[title] {
+  border-bottom: 1px dotted var(--color-text);
+  cursor: help;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper address {
+  display: block;
+  margin-bottom: var(--font-spacing-4);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper blockquote {
+  overflow: hidden;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper pre {
+  display: block;
+  margin-bottom: var(--font-spacing-4);
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper a {
+  color: var(--color-link);
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+  text-decoration: none;
+}
+
+.edit-post-visual-editor .editor-styles-wrapper a:focus {
+  color: var(--color-link);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper a:hover {
+  color: var(--color-link-hover);
+}
+
+.edit-post-visual-editor .editor-styles-wrapper a:active {
+  color: var(--color-link-active);
+}
+
+/* ==========================================================================
+   =Gutenberg Block Styling
+   ========================================================================== */
+/* Search */
+.wp-block-search__button {
+  position: relative;
+  display: inline-block;
+  font: inherit;
+  padding: var(--font-spacing-2) var(--font-spacing-4);
+  border: 1px solid var(--color-accent-1);
+  border-radius: var(--border-radius-buttons);
+  margin-bottom: var(--font-spacing-4);
+  background-color: var(--color-accent-1);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+/* Separator */
+.wp-block-separator.is-style-dots::before {
+  color: var(--border-color);
+}
+
+.wp-block-separator:not(.is-style-dots) {
+  border-bottom: 0;
+}
+
+/* Pull quote*/
+.wp-block-pullquote {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: var(--font-spacing-unit);
+  color: currentColor;
+  padding: var(--font-spacing-3);
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-body);
+}
+
+.wp-block-pullquote__citation,
+.wp-block-pullquote cite, .wp-block-pullquote footer {
+  color: var(--color-muted);
+}
+
+@media (min-width: 992px) {
+  .wp-block-pullquote {
+    padding: var(--font-spacing-5);
+  }
+}
+/* Blockquote */
+.wp-block-quote {
+  border-left: 0;
+  margin: 0 0 var(--font-spacing-4) 0;
+  padding-left: 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: var(--font-spacing-unit);
+  color: currentColor;
+  padding: var(--font-spacing-3);
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-body);
+}
+
+.wp-block-quote.has-text-align-right {
+  border-right: 0;
+  padding: var(--font-spacing-3);
+}
+
+.wp-block-quote cite,
+.wp-block-quote footer {
+  color: var(--color-muted);
+}
+
+@media (min-width: 992px) {
+  .wp-block-quote {
+    padding: var(--font-spacing-5);
+  }
+}
+/* Gallery */
+.wp-block-gallery {
+  margin-bottom: var(--font-spacing-4);
+}
+
+.wp-block-gallery img {
+  border-radius: var(--border-radius-default);
+}
+
+/* Image */
+.wp-block-image.has-custom-border img,
+.wp-block-image img {
+  border-radius: var(--border-radius-default);
+}
+
+/* Align Wide and Full */
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .alignfull,
+.alignwide {
+    width: 100vw;
+    max-width: calc(100vw - var(--spacing-8));
+    margin-left: calc(-50vw + var(--spacing-5) + 50%) !important;
+  }
+  .rtl .alignfull,
+.rtl .alignwide {
+    margin-left: auto !important;
+    margin-right: calc(-50vw + var(--spacing-5) + 50%) !important;
+  }
+}
+@media (min-width: 1400px) {
+  .alignfull,
+.alignwide {
+    width: var(--max-width-content);
+    max-width: var(--max-width-content);
+    margin-left: calc(-1 * var(--max-width-content) / 2 + 50%) !important;
+  }
+  .rtl .alignfull,
+.rtl .alignwide {
+    margin-left: auto !important;
+    margin-right: calc(-1 * var(--max-width-content) / 2 + 50%) !important;
+  }
+}
+.rb-has-sidebar .alignfull,
+.rb-has-sidebar .alignwide {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
+
+/* Button */
+.editor-styles-wrapper .wp-block-button__link:not(.is-style-outline) {
+  background-color: var(--color-accent-1) !important;
+  color: #ffffff !important;
+  border-radius: var(--border-radius-buttons);
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline,
+.wp-block-button__link {
+  padding: var(--font-spacing-2) var(--font-spacing-4) !important;
+  background-color: var(--color-accent-1);
+  color: #ffffff;
+  border-width: 2px !important;
+  border-radius: var(--border-radius-buttons);
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+  padding: calc(var(--font-spacing-2) - 2px) var(--font-spacing-4) !important;
+}
+
+.wp-block-button__link:hover {
+  border-color: var(--color-accent-2) !important;
+  background-color: var(--color-accent-2) !important;
+  color: #ffffff !important;
+}
+
+@font-face {
+  font-family: "rovenblogiconfont";
+  src: url("../fonts/rovenblogiconfont/rovenblogiconfont.woff2?3q326u") format("woff2"), url("../fonts/rovenblogiconfont/rovenblogiconfont.ttf?3q326u") format("truetype"), url("../fonts/rovenblogiconfont/rovenblogiconfont.woff?3q326u") format("woff"), url("../fonts/rovenblogiconfont/rovenblogiconfont.svg?3q326u#rovenblogiconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i[class*=rovenblog-] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "rovenblogiconfont" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rovenblog-icon-twitter-square:before {
+  content: "\f081";
+}
+
+.rovenblog-icon-facebook-square:before {
+  content: "\f082";
+}
+
+.rovenblog-icon-linkedin-square:before {
+  content: "\f08c";
+}
+
+.rovenblog-icon-github-square:before {
+  content: "\f092";
+}
+
+.rovenblog-icon-twitter1:before {
+  content: "\f099";
+}
+
+.rovenblog-icon-facebook1:before {
+  content: "\f09a";
+}
+
+.rovenblog-icon-facebook-f:before {
+  content: "\f09a";
+}
+
+.rovenblog-icon-github:before {
+  content: "\f09b";
+}
+
+.rovenblog-icon-pinterest:before {
+  content: "\f0d2";
+}
+
+.rovenblog-icon-pinterest-square:before {
+  content: "\f0d3";
+}
+
+.rovenblog-icon-google-plus:before {
+  content: "\f0d5";
+}
+
+.rovenblog-icon-linkedin1:before {
+  content: "\f0e1";
+}
+
+.rovenblog-icon-github-alt:before {
+  content: "\f113";
+}
+
+.rovenblog-icon-maxcdn:before {
+  content: "\f136";
+}
+
+.rovenblog-icon-html5:before {
+  content: "\f13b";
+}
+
+.rovenblog-icon-css3:before {
+  content: "\f13c";
+}
+
+.rovenblog-icon-bitcoin:before {
+  content: "\f15a";
+}
+
+.rovenblog-icon-btc:before {
+  content: "\f15a";
+}
+
+.rovenblog-icon-youtube-square:before {
+  content: "\f166";
+}
+
+.rovenblog-icon-youtube1:before {
+  content: "\f167";
+}
+
+.rovenblog-icon-xing:before {
+  content: "\f168";
+}
+
+.rovenblog-icon-xing-square:before {
+  content: "\f169";
+}
+
+.rovenblog-icon-youtube-play:before {
+  content: "\f16a";
+}
+
+.rovenblog-icon-flickr:before {
+  content: "\f16e";
+}
+
+.rovenblog-icon-adn:before {
+  content: "\f170";
+}
+
+.rovenblog-icon-bitbucket:before {
+  content: "\f171";
+}
+
+.rovenblog-icon-bitbucket-square:before {
+  content: "\f172";
+}
+
+.rovenblog-icon-tumblr:before {
+  content: "\f173";
+}
+
+.rovenblog-icon-tumblr-square:before {
+  content: "\f174";
+}
+
+.rovenblog-icon-apple:before {
+  content: "\f179";
+}
+
+.rovenblog-icon-windows:before {
+  content: "\f17a";
+}
+
+.rovenblog-icon-android:before {
+  content: "\f17b";
+}
+
+.rovenblog-icon-linux:before {
+  content: "\f17c";
+}
+
+.rovenblog-icon-dribbble:before {
+  content: "\f17d";
+}
+
+.rovenblog-icon-skype:before {
+  content: "\f17e";
+}
+
+.rovenblog-icon-foursquare:before {
+  content: "\f180";
+}
+
+.rovenblog-icon-trello1:before {
+  content: "\f181";
+}
+
+.rovenblog-icon-vk:before {
+  content: "\f189";
+}
+
+.rovenblog-icon-vimeo-square:before {
+  content: "\f194";
+}
+
+.rovenblog-icon-try:before {
+  content: "\f195";
+}
+
+.rovenblog-icon-turkish-lira:before {
+  content: "\f195";
+}
+
+.rovenblog-icon-google:before {
+  content: "\f1a0";
+}
+
+.rovenblog-icon-reddit:before {
+  content: "\f1a1";
+}
+
+.rovenblog-icon-reddit-square:before {
+  content: "\f1a2";
+}
+
+.rovenblog-icon-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+.rovenblog-icon-stumbleupon:before {
+  content: "\f1a4";
+}
+
+.rovenblog-icon-delicious:before {
+  content: "\f1a5";
+}
+
+.rovenblog-icon-digg:before {
+  content: "\f1a6";
+}
+
+.rovenblog-icon-pied-piper-pp:before {
+  content: "\f1a7";
+}
+
+.rovenblog-icon-behance:before {
+  content: "\f1b4";
+}
+
+.rovenblog-icon-behance-square:before {
+  content: "\f1b5";
+}
+
+.rovenblog-icon-steam:before {
+  content: "\f1b6";
+}
+
+.rovenblog-icon-steam-square:before {
+  content: "\f1b7";
+}
+
+.rovenblog-icon-vine:before {
+  content: "\f1ca";
+}
+
+.rovenblog-icon-jsfiddle:before {
+  content: "\f1cc";
+}
+
+.rovenblog-icon-git-square:before {
+  content: "\f1d2";
+}
+
+.rovenblog-icon-git:before {
+  content: "\f1d3";
+}
+
+.rovenblog-icon-hacker-news:before {
+  content: "\f1d4";
+}
+
+.rovenblog-icon-y-combinator-square:before {
+  content: "\f1d4";
+}
+
+.rovenblog-icon-yc-square:before {
+  content: "\f1d4";
+}
+
+.rovenblog-icon-qq:before {
+  content: "\f1d6";
+}
+
+.rovenblog-icon-share-alt:before {
+  content: "\f1e0";
+}
+
+.rovenblog-icon-share-alt-square:before {
+  content: "\f1e1";
+}
+
+.rovenblog-icon-twitch:before {
+  content: "\f1e8";
+}
+
+.rovenblog-icon-yelp:before {
+  content: "\f1e9";
+}
+
+.rovenblog-icon-paypal:before {
+  content: "\f1ed";
+}
+
+.rovenblog-icon-google-wallet:before {
+  content: "\f1ee";
+}
+
+.rovenblog-icon-ils:before {
+  content: "\f20b";
+}
+
+.rovenblog-icon-shekel:before {
+  content: "\f20b";
+}
+
+.rovenblog-icon-sheqel:before {
+  content: "\f20b";
+}
+
+.rovenblog-icon-buysellads:before {
+  content: "\f20d";
+}
+
+.rovenblog-icon-facebook-official:before {
+  content: "\f230";
+}
+
+.rovenblog-icon-pinterest-p:before {
+  content: "\f231";
+}
+
+.rovenblog-icon-whatsapp:before {
+  content: "\f232";
+}
+
+.rovenblog-icon-medium:before {
+  content: "\f23a";
+}
+
+.rovenblog-icon-optin-monster:before {
+  content: "\f23c";
+}
+
+.rovenblog-icon-tripadvisor:before {
+  content: "\f262";
+}
+
+.rovenblog-icon-odnoklassniki:before {
+  content: "\f263";
+}
+
+.rovenblog-icon-odnoklassniki-square:before {
+  content: "\f264";
+}
+
+.rovenblog-icon-get-pocket:before {
+  content: "\f265";
+}
+
+.rovenblog-icon-wikipedia-w:before {
+  content: "\f266";
+}
+
+.rovenblog-icon-safari:before {
+  content: "\f267";
+}
+
+.rovenblog-icon-chrome:before {
+  content: "\f268";
+}
+
+.rovenblog-icon-firefox:before {
+  content: "\f269";
+}
+
+.rovenblog-icon-opera:before {
+  content: "\f26a";
+}
+
+.rovenblog-icon-internet-explorer:before {
+  content: "\f26b";
+}
+
+.rovenblog-icon-500px:before {
+  content: "\f26e";
+}
+
+.rovenblog-icon-amazon:before {
+  content: "\f270";
+}
+
+.rovenblog-icon-houzz:before {
+  content: "\f27c";
+}
+
+.rovenblog-icon-vimeo:before {
+  content: "\f27d";
+}
+
+.rovenblog-icon-reddit-alien:before {
+  content: "\f281";
+}
+
+.rovenblog-icon-edge:before {
+  content: "\f282";
+}
+
+.rovenblog-icon-snapchat:before {
+  content: "\f2ab";
+}
+
+.rovenblog-icon-snapchat-ghost:before {
+  content: "\f2ac";
+}
+
+.rovenblog-icon-snapchat-square:before {
+  content: "\f2ad";
+}
+
+.rovenblog-icon-yoast:before {
+  content: "\f2b1";
+}
+
+.rovenblog-icon-superpowers:before {
+  content: "\f2dd";
+}
+
+.rovenblog-icon-wpexplorer:before {
+  content: "\f2de";
+}
+
+.rovenblog-icon-meetup:before {
+  content: "\f2e0";
+}
+
+.rovenblog-icon-activity:before {
+  content: "\e900";
+}
+
+.rovenblog-icon-alert-circle:before {
+  content: "\e901";
+}
+
+.rovenblog-icon-align-justify:before {
+  content: "\e902";
+}
+
+.rovenblog-icon-aperture:before {
+  content: "\e903";
+}
+
+.rovenblog-icon-arrow-down:before {
+  content: "\e904";
+}
+
+.rovenblog-icon-arrow-down-circle:before {
+  content: "\e905";
+}
+
+.rovenblog-icon-arrow-down-left:before {
+  content: "\e906";
+}
+
+.rovenblog-icon-arrow-down-right:before {
+  content: "\e907";
+}
+
+.rovenblog-icon-arrow-left:before {
+  content: "\e908";
+}
+
+.rovenblog-icon-arrow-left-circle:before {
+  content: "\e909";
+}
+
+.rovenblog-icon-arrow-right:before {
+  content: "\e90a";
+}
+
+.rovenblog-icon-arrow-right-circle:before {
+  content: "\e90b";
+}
+
+.rovenblog-icon-arrow-up:before {
+  content: "\e90c";
+}
+
+.rovenblog-icon-arrow-up-circle:before {
+  content: "\e90d";
+}
+
+.rovenblog-icon-arrow-up-left:before {
+  content: "\e90e";
+}
+
+.rovenblog-icon-arrow-up-right:before {
+  content: "\e90f";
+}
+
+.rovenblog-icon-at-sign:before {
+  content: "\e910";
+}
+
+.rovenblog-icon-bookmark:before {
+  content: "\e911";
+}
+
+.rovenblog-icon-box:before {
+  content: "\e912";
+}
+
+.rovenblog-icon-calendar:before {
+  content: "\e913";
+}
+
+.rovenblog-icon-camera:before {
+  content: "\e914";
+}
+
+.rovenblog-icon-check:before {
+  content: "\e915";
+}
+
+.rovenblog-icon-chevron-down:before {
+  content: "\e916";
+}
+
+.rovenblog-icon-chevron-left:before {
+  content: "\e917";
+}
+
+.rovenblog-icon-chevron-right:before {
+  content: "\e918";
+}
+
+.rovenblog-icon-chevron-up:before {
+  content: "\e919";
+}
+
+.rovenblog-icon-columns:before {
+  content: "\e91a";
+}
+
+.rovenblog-icon-copy:before {
+  content: "\e91b";
+}
+
+.rovenblog-icon-corner-down-left:before {
+  content: "\e91c";
+}
+
+.rovenblog-icon-corner-down-right:before {
+  content: "\e91d";
+}
+
+.rovenblog-icon-corner-left-down:before {
+  content: "\e91e";
+}
+
+.rovenblog-icon-corner-left-up:before {
+  content: "\e91f";
+}
+
+.rovenblog-icon-corner-right-down:before {
+  content: "\e920";
+}
+
+.rovenblog-icon-corner-right-up:before {
+  content: "\e921";
+}
+
+.rovenblog-icon-corner-up-left:before {
+  content: "\e922";
+}
+
+.rovenblog-icon-corner-up-right:before {
+  content: "\e923";
+}
+
+.rovenblog-icon-download:before {
+  content: "\e924";
+}
+
+.rovenblog-icon-download-cloud:before {
+  content: "\e925";
+}
+
+.rovenblog-icon-edit:before {
+  content: "\e926";
+}
+
+.rovenblog-icon-edit-2:before {
+  content: "\e927";
+}
+
+.rovenblog-icon-edit-3:before {
+  content: "\e928";
+}
+
+.rovenblog-icon-external-link:before {
+  content: "\e929";
+}
+
+.rovenblog-icon-eye:before {
+  content: "\e92a";
+}
+
+.rovenblog-icon-facebook:before {
+  content: "\e92b";
+}
+
+.rovenblog-icon-file:before {
+  content: "\e92c";
+}
+
+.rovenblog-icon-file-text:before {
+  content: "\e92d";
+}
+
+.rovenblog-icon-film:before {
+  content: "\e92e";
+}
+
+.rovenblog-icon-globe:before {
+  content: "\e92f";
+}
+
+.rovenblog-icon-grid:before {
+  content: "\e930";
+}
+
+.rovenblog-icon-hash:before {
+  content: "\e931";
+}
+
+.rovenblog-icon-heart:before {
+  content: "\e932";
+}
+
+.rovenblog-icon-help-circle:before {
+  content: "\e933";
+}
+
+.rovenblog-icon-image:before {
+  content: "\e934";
+}
+
+.rovenblog-icon-inbox:before {
+  content: "\e935";
+}
+
+.rovenblog-icon-instagram:before {
+  content: "\e936";
+}
+
+.rovenblog-icon-layers:before {
+  content: "\e937";
+}
+
+.rovenblog-icon-layout:before {
+  content: "\e938";
+}
+
+.rovenblog-icon-link-2:before {
+  content: "\e939";
+}
+
+.rovenblog-icon-linkedin:before {
+  content: "\e93a";
+}
+
+.rovenblog-icon-list:before {
+  content: "\e93b";
+}
+
+.rovenblog-icon-lock:before {
+  content: "\e93c";
+}
+
+.rovenblog-icon-log-in:before {
+  content: "\e93d";
+}
+
+.rovenblog-icon-log-out:before {
+  content: "\e93e";
+}
+
+.rovenblog-icon-mail:before {
+  content: "\e93f";
+}
+
+.rovenblog-icon-map:before {
+  content: "\e940";
+}
+
+.rovenblog-icon-map-pin:before {
+  content: "\e941";
+}
+
+.rovenblog-icon-maximize-2:before {
+  content: "\e942";
+}
+
+.rovenblog-icon-menu:before {
+  content: "\e943";
+}
+
+.rovenblog-icon-message-square:before {
+  content: "\e944";
+}
+
+.rovenblog-icon-minus:before {
+  content: "\e945";
+}
+
+.rovenblog-icon-moon:before {
+  content: "\e946";
+}
+
+.rovenblog-icon-more-horizontal:before {
+  content: "\e947";
+}
+
+.rovenblog-icon-more-vertical:before {
+  content: "\e948";
+}
+
+.rovenblog-icon-paperclip:before {
+  content: "\e949";
+}
+
+.rovenblog-icon-phone:before {
+  content: "\e94a";
+}
+
+.rovenblog-icon-phone-call:before {
+  content: "\e94b";
+}
+
+.rovenblog-icon-pie-chart:before {
+  content: "\e94c";
+}
+
+.rovenblog-icon-play:before {
+  content: "\e94d";
+}
+
+.rovenblog-icon-play-circle:before {
+  content: "\e94e";
+}
+
+.rovenblog-icon-plus:before {
+  content: "\e94f";
+}
+
+.rovenblog-icon-plus-circle:before {
+  content: "\e950";
+}
+
+.rovenblog-icon-plus-square:before {
+  content: "\e951";
+}
+
+.rovenblog-icon-power:before {
+  content: "\e952";
+}
+
+.rovenblog-icon-search:before {
+  content: "\e953";
+}
+
+.rovenblog-icon-send:before {
+  content: "\e954";
+}
+
+.rovenblog-icon-settings:before {
+  content: "\e955";
+}
+
+.rovenblog-icon-share:before {
+  content: "\e956";
+}
+
+.rovenblog-icon-share-2:before {
+  content: "\e957";
+}
+
+.rovenblog-icon-shopping-bag:before {
+  content: "\e958";
+}
+
+.rovenblog-icon-shopping-cart:before {
+  content: "\e959";
+}
+
+.rovenblog-icon-sidebar:before {
+  content: "\e95a";
+}
+
+.rovenblog-icon-sliders:before {
+  content: "\e95b";
+}
+
+.rovenblog-icon-sun:before {
+  content: "\e95c";
+}
+
+.rovenblog-icon-tablet:before {
+  content: "\e95d";
+}
+
+.rovenblog-icon-tag:before {
+  content: "\e95e";
+}
+
+.rovenblog-icon-thumbs-down:before {
+  content: "\e95f";
+}
+
+.rovenblog-icon-thumbs-up:before {
+  content: "\e960";
+}
+
+.rovenblog-icon-toggle-left:before {
+  content: "\e961";
+}
+
+.rovenblog-icon-toggle-right:before {
+  content: "\e962";
+}
+
+.rovenblog-icon-trello:before {
+  content: "\e963";
+}
+
+.rovenblog-icon-twitter:before {
+  content: "\e964";
+}
+
+.rovenblog-icon-user:before {
+  content: "\e965";
+}
+
+.rovenblog-icon-users:before {
+  content: "\e966";
+}
+
+.rovenblog-icon-video:before {
+  content: "\e967";
+}
+
+.rovenblog-icon-voicemail:before {
+  content: "\e968";
+}
+
+.rovenblog-icon-x:before {
+  content: "\e969";
+}
+
+.rovenblog-icon-youtube:before {
+  content: "\e96a";
+}

@@ -1,0 +1,22 @@
+/*
+ * RovenBlog One Click Demo Importer plugin CSS customizations
+ */
+@media (min-width: 1400px) {
+  .ocdi__gl-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(25% - 30px);
+            flex: 0 0 calc(25% - 30px);
+  }
+  .ocdi__theme-about-screenshots {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    margin-right: 30px;
+  }
+}
+.ocdi-install-plugins-content-content .plugin-item.plugin-item-wpforms-lite,
+.ocdi-install-plugins-content-content .plugin-item.plugin-item-all-in-one-seo-pack,
+.ocdi-install-plugins-content-content .plugin-item.plugin-item-google-analytics-for-wordpress,
+.ocdi-install-plugins-content-content .ocdi-content-notice {
+  display: none;
+}

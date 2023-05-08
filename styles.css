@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+}
+body {
+    background-color: #01001A;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.top-heading, .calc-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-heading {
+    height: 35px;
+    background-color: white;
+    color: black;
+}
+
+
+.calc-button {
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    border: 1px solid rgba(174, 174, 174, 0.401);
+}
+.calc-button:active  {
+    border: 1px solid ;
+
+}
+.carousel-div img{
+    width: 100%;
+    height: 100%;
+}
+.cards-wrapper {
+    display: flex;
+}
+
+.my-arrow-btn {
+    margin-left: 86%;
+}
+
+.my-cards {
+    border-radius: 20px;
+}
+@media only screen and (min-width: 992px) {
+
+    .calc-div {
+        height: 38rem;
+    }
+.re-bg-img {
+    background-image: url('./images/ellipse.png');
+    background-position: 10% 10% ;
+    background-size: cover;
+}
+.re-bg-img img {
+    position: relative;
+    top: 30px
+}
+.brand-carosel {
+    height: 13rem;
+}
+.brand-carosel-btns {
+    top: 50px;
+}
+.smart-portfolio {
+    margin: 100px 0;
+}
+.my-font {
+    font-size: 34px;
+}
+.my-calculator-style {
+    width: 80%;
+}
+.my-cards {
+    margin: 0 0.5em;
+    width: calc(100%/3);
+}
+}
+@media only screen and (max-width: 600px) {
+    .calc-div {
+        height: 45rem;
+    }
+    .calc-graph {
+        height: 30rem;
+    }
+    .re-bg-img,.re-content {
+        text-align: center;
+    }
+    
+    .brand-carosel {
+        /* height: 20rem; */
+        overflow:hidden;
+    }
+
+
+
+
+    .smart-portfolio {
+        margin: 100px 0;
+    }
+    .my-calc-section {
+        background-color: white;
+    }
+    .my-calculator-style {
+        width: 100%;
+    }
+    .my-calc-content {
+        background-color: #01001A;
+    }
+    .my-calc-graph {
+        width: 90%;
+        height: 40rem;
+        margin: auto;
+    }
+    .my-blue-tick {
+        width: 40px;
+        height: 30px;
+    }
+    .my-img {
+        height: 300px;
+    }
+    .my-arrow-btn {
+        margin-left: 60%;
+    }
+    .my-cards:not(:first-child) {
+        display: none;
+    }
+    
+}

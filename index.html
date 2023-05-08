@@ -2,418 +2,609 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>RoDo</title>
-  <link rel="shortcut icon" href="./assets/img/favicon.png">
-  <link rel="stylesheet" href="./assets/css/plugins.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preload" href="./assets/css/fonts/dm.css" as="style" onload="this.rel='stylesheet'">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- flat-icon -->
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+  <link rel="stylesheet" href="styles.css">
+  <title>RuDo</title>
 </head>
 
 <body>
-  <div class="content-wrapper ">
-    <header class="wrapper bg-rudo">
-      <div class="alert bg-white text-black-50 alert-dismissible fade show rounded-0 mb-1 text-lg-center" role="alert">
-        <div class="container">
-          <div class="alert-inner d-flex justify-content-center align-items-center p-0">
-            <span class="badge badge-lg bg-white text-black-50 text-uppercase fs-15 rounded me-2">Sign up now to join our waitlist and get AED 20
-          </div>
-          <!-- /.alert-inner -->
-        </div>
-        <!-- /.container -->
-        <button style="color:#000;" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-      <!-- /.alert -->
-      <nav style="padding: 17px 0px;" class="navbar navbar-expand-lg center-nav transparent navbar-light">
-        <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100">
-            <a href="./index.html">
-              <img src="./assets/img/DOCYTCOVIDAsset 1.png" width="150px"  alt="" />
-            </a>
-          </div>
-          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-            <div class="offcanvas-header d-lg-none">
-              <!-- <h3 class="text-white fs-30 mb-0">RuDo</h3> -->
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-         
-            <!-- /.offcanvas-body -->
-          </div>
-          <!-- /.navbar-collapse -->
-          <div class="navbar-other w-100 d-flex ms-auto">
-            <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item dropdown language-select text-uppercase">
-                <a href="./contact.html" class="btn btn-sm btn-rudo-blue rounded">Refer & Earn</a>
-              </li>
-              <li class="nav-item d-none d-md-block">
-                <a href="./contact.html" class="btn btn-sm btn-outline-rudo  rounded">#Financial Fitness Test</a>
-              </li>
-              <li class="nav-item d-lg-none">
-                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-              </li>
-            </ul>
-            <!-- /.navbar-nav -->
-          </div>
-          <!-- /.navbar-other -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- /.navbar -->
-      <!-- <hr class="my-8" /> -->
-    </header>
-    <!-- /header -->
+  <div class="top-heading w-100">
+    <span style="font-size: 12px;">Sign up now to join our waitlist and get <span style="font-weight: 600;">AED 20</span></span>
+  </div>
 
-    <section style="margin: 70px 0px 0px 0px;" class="wrapper bg-rudo position-relative min-vh-70 d-lg-flex align-items-center">
-      <div class="rounded-4-lg-start col-lg-6 order-lg-2 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100 min-vh-50" data-image-src="https://firebasestorage.googleapis.com/v0/b/portfolio-4bf1c.appspot.com/o/Screenshot%202023-05-03%20163235.png?alt=media&token=5b0ede35-cda3-4c23-9e3f-e1b79146d0ce">
+  <!-- nav-bar -->
+  <section id="nav-bar">
+    <nav class="navbar navbar-light border-bottom border-info" style="height: 70px;">
+      <div class="container">
+        <a class="navbar-brand"><img src="./images/Logo/Full_logo.svg" alt="" style="width: 120px;"></a>
+        <div class="d-none d-md-inline">
+          <button class="btn btn-info">Refer & Earn</button>
+          <button class="btn btn-outline-info text-light" type="submit">#Financial Fitness Test</button>
+        </div>
       </div>
-      <!--/column -->
+    </nav>
+  </section>
+
+
+  <!-- hero-section -->
+  <section id="hero" class="mt-lg-5">
+    <div class="container">
+      <div class="row mt-lg-5">
+        <div class="col-sm-12 col-md-6 text-center text-lg-start p-4">
+          <p>Small Todays, Big Tomorrows</p>
+          <span class="fs-2 fs-lg-1">RuDo helps you to <span class="text-info">save, invest, & build</span> long term
+            wealth</span>
+          <p class="fs-6 my-3 ">Empowering the Uninvested and Underinvested to achieve long-term wealth through micro
+            saving, automated investing, and financial education.</p>
+          <button class="btn btn-info d-flex align-items-center justify-content-evenly mx-auto mx-lg-0"
+            style="width: 200px;">Join Community <i
+              class="fi fi-rr-arrow-right d-flex align-items-center justify-content-evenly"></i></button>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img src="./images/hero-img.png" alt="" style="width: 100%;">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- invest-ways -->
+  <section class="my-5 p-5">
+    <div class="m-auto d-flex align-items-center justify-content-center">
+      <span class=" fs-1 text-light text-center">Smart way to invest</span>
+    </div>
+    <hr class="text-info m-auto my-3" style="width: 40px;height: 3px;">
+    <div class="container px-lg-5">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="card" style="background-color: rgb(48, 48, 76);">
+            <div class="card-body d-flex flex-column align-items-center justify-content-evenly" style="height: 20rem;">
+              <img src="./images/cards/convert-card.svg" alt="" style="width: 60px;height: 60px;">
+              <p class="fs-6 text-center">Automatic Recurring</p>
+              <p class="fs-6 d-flex justify-content-center align-items-center" style="color: #A7B5BE;height: 30%;">Make investing a habit with recurring investments - daily, weekly,
+                or monthly. Start small, try AED 20 a day.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 my-5 my-lg-0">
+          <div class="card" style="background-color: rgb(48, 48, 76);">
+            <div class="card-body d-flex flex-column align-items-center justify-content-evenly" style="height: 20rem;">
+              <img src="./images/cards/cards.png" alt="" style="width: 60px;height: 60px;">
+              <p class="fs-6 text-center">Automatic Portfolio Rebalancing</p>
+              <p class="fs-6 d-flex justify-content-center align-items-center" style="color: #A7B5BE;height: 30%;">We'll rebalance your portfolio to maintain your allocation in line
+                with your long-term financial goals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card" style="background-color: rgb(48, 48, 76);">
+            <div class="card-body d-flex flex-column align-items-center justify-content-evenly" style="height: 20rem;">
+              <img src="./images/cards/coin.svg" alt="" style="width: 60px;height: 60px;">
+              <p class="fs-6 text-center">Automatic Dividend Reinvesting</p>
+              <p class="fs-6 d-flex justify-content-center align-items-center" style="color: #A7B5BE;height: 35%;">We will automatically reinvest the <br> dividends you
+                earn on your investments. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- roundup -->
+  <section class="">
+    <div class="d-flex flex-column align-items-center justify-content-between mx-auto" style="height: 30%;">
+      <div class="d-flex flex-column align-items-center justify-content-center fs-2 fw-bold m-4">
+        <span class="text-center">Grow your spare change</span>
+        <span class="text-center">automatically with <span
+            style="background-image: url('./images/roundup-vect.png');background-size: cover;background-repeat: no-repeat;background-position: center;">Roundup</span></span>
+
+      </div>
+      <div class="mx-auto col-12 col-lg-6 text-center m-2 px-3">
+        <span class="">Transform your everyday purchases into investments! With spare change from AED 18.50 coffee,
+          invest AED 1.50 towards your future.</span>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-11 col-lg-6 mx-auto">
+
+          <div class="d-flex flex-column align-items-start justify-content-evenly h-100">
+            <div class="d-flex align-items-center justify-content-center">
+              <img class="my-blue-tick" src="./images/check-vect.png" alt="" style="margin-right: 20px;">
+              <p class="m-0" style="color: #A7B5BE;">Link all of your bank accounts</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center my-5 my-lg-0">
+              <img class="my-blue-tick" src="./images/check-vect.png" alt="" style="margin-right: 20px;">
+              <p class="m-0" style="color: #A7B5BE;">We’ll set aside your spare change from<br> every purchase</p>
+
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <img class="my-blue-tick" src="./images/check-vect.png" alt="" style="margin-right: 20px;">
+              <p class="m-0" style="color: #A7B5BE;">And invest the change once it reaches<br> at least $5</p>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+
+          <div class="d-flex align-items-center">
+            <!-- background-image: url('./images/Frame\ 2973.png');background-position: center;background-size: cover; background-repeat: no-repeat; -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6rYzZQXJ-3Q"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- automated-investing -->
+  <section class="d-flex flex-column align-items-center justify-content-evenly my-5">
+    <p class="fs-1">Automated Investing</p>
+    <p class="d-flex flex-column align-items-center justify-content-center text-center col-11 col-lg-8" style="font-size: 16px;color: 
+    #FEFEFE;word-spacing: 1px;">Market fluctuations are inevitable, but with our expertly crafted portfolio
+      backed by Nobel Prize-winning science and diversified ETFs in stocks, bonds, real estate, and gold,
+      you can start building long-term wealth with ease. Our Automated Investing manages risk and
+      maximises returns for you. </p>
+
+  </section>
+
+
+  <!-- carosel -->
+  <section class="d-flex align-items-center justify-content-center">
+    <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-1.svg" alt="...">
+            </div>
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-2.svg" alt="...">
+            </div>
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-3.svg" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-4.svg" alt="...">
+            </div>
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-1.svg" alt="...">
+            </div>
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-2.svg" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-4.svg" alt="...">
+            </div>
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-1.svg" alt="...">
+            </div>
+            <div class="card my-cards">
+              <img src="./images/carosel-img/img-2.svg" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div>
+
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+            style="background-color: #01001A;height: 60px;width: 60px; border-radius: 50%;margin: auto;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next" style="background-color: #01001A;height: 60px;width: 60px; border-radius: 50%; margin: auto;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- brand-logos -->
+  <section class="d-flex align-items-center justify-content-center"
+    style="height: 8rem;background-color: rgb(48, 48, 76);margin-top: 100px;">
+    <div class="d-flex align-items-center justify-content-between col-12 col-lg-8" style="height: 80%;">
+      <img src="./images/iShares/logo.svg" alt="" srcset="">
+      <img src="./images/SPDR/logo.svg" alt="" srcset="">
+      <img src="./images/Vanguard/logo.svg" alt="" srcset="">
+
+    </div>
+
+  </section>
+
+
+  <!-- calculator -->
+  <section class="d-flex flex-column align-items-center justify-content-evenly my-calc-section" id="calculator"
+    style="margin-top: 100px;">
+    <div class="d-flex flex-column align-items-center justify-content-evenly my-calc-content pb-5">
+
+      <p class="text-center w-100 " style="width: 70%;"><span class="fs-1">Power of compounding </span><br><span
+          class="fs-4">with </span><br><span class="fs-1 text-info">Incremental Investing</span></p>
+      <p class="text-center col-10 col-lg-8 px-2"><span> Compound
+          returns are the eighth wonder of the world. Experience the magic of compounding</span><span> returns with
+          RuDo's interest calculator to see how your money could potentially grow over time.</span></p>
+      <button class="btn btn-info d-flex align-items-center justify-content-evenly" style="width: 150px;">Explore More
+        <i class="fi fi-rr-arrow-right d-flex align-items-center justify-content-evenly"></i></button>
+
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center row my-calculator-style" style="margin: 60px 0;">
+      <div class="col-12 col-lg-6 calc-div px-0">
+        <div class="d-flex align-items-center justify-content-center p-0 my-calc"
+          style="height: 95%;background-color: white;border-radius: 20px;">
+
+
+          <div action="" class="d-flex flex-column align-items-center justify-content-evenly"
+            style="height: 90%;width: 90%;">
+            <div class="d-flex flex-column justify-content-evenly text-dark"
+              style="height: 20%; width: 90%;margin: auto;">
+              <div class="d-flex align-items-center justify-content-between">
+                <p style="font-weight: 600;">One-time Deposit</p>
+                <div class="d-flex align-items-center justify-content-center"
+                  style="width: 150px;height: 35px;border: 2px solid rgba(128, 128, 128, 0.4550);border-radius: 10px;">
+                  <p class="m-0">AED <span id="depositOutput"></span></p>
+                </div>
+              </div>
+              <div class="d-flex align-content-center justify-content-center"
+                style="height: 35px;border: 1px solid rgba(128, 128, 128, 0.150);">
+                <input type="range" min="1" max="100" value="50" class="slider" id="depositRange" style="width:80%;">
+
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly text-dark"
+              style="height: 20%; width: 90%;margin: auto;">
+              <div class="d-flex justify-content-between">
+                <p style="font-weight: 600;">Recurring Deposit</p>
+                <div class="d-flex align-items-center justify-content-center"
+                  style="width: 150px;height: 35px;border: 2px solid rgba(128, 128, 128, 0.4550); border-radius: 10px;">
+                  <p class="m-0">AED <span id="recurringOutput"></span></p>
+                </div>
+              </div>
+              <div class="d-flex align-content-center justify-content-center"
+                style="height: 35px;border: 1px solid rgba(128, 128, 128, 0.150);">
+                <input type="range" min="1" max="100" value="50" class="slider" id="recurringRange" style="width:80%;">
+
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly text-dark"
+              style="height: 20%; width: 90%;margin: auto;">
+              <div class="d-flex justify-content-between">
+                <p style="font-weight: 600;">Frequency</p>
+              </div>
+              <div class="d-flex align-items-end justify-content-evenly" style="height: 50px;">
+                <button class="btn calc-button">Daily</button>
+                <button class="btn calc-button">Weekly</button>
+                <button class="btn calc-button">Monthly</button>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly text-dark"
+              style="height: 20%; width: 90%;margin: auto;">
+              <div class="d-flex justify-content-between">
+                <p style="font-weight: 600;">Years to grow</p>
+                <div class="d-flex align-items-center justify-content-center"
+                  style="width: 150px;height: 35px;border: 2px solid rgba(128, 128, 128, 0.4550);border-radius: 10px;">
+                  <p class="m-0">AED <span id="yearOutput"></span></p>
+                </div>
+              </div>
+              <div class="d-flex align-content-center justify-content-center"
+                style="height: 35px;border: 1px solid rgba(128, 128, 128, 0.150);">
+                <input type="range" min="1" max="100" value="50" class="slider" id="yearRange" style="width:80%;">
+
+              </div>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center text-dark"
+              style="height: 20%; margin: auto;width: 80%;">
+              <button class="btn btn-info" style="width: 80%;">Calculate My Estimate</button>
+              <p style="color: #788395;margin-top: 20px;">*drag to navigate</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-6 px-0 calc-graph">
+        <div class="my-calc-graph" style="height: 100%;background-color: 
+          #01001A;border-radius: 20px;">
+          <img src="./images/graph.svg" style="border-radius: 20px; height: 100%;width: 100%;" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- smart-portfolio -->
+  <section class="row d-flex align-items-center justify-content-sm-center p-2 p-lg-2 smart-portfolio" id="">
+
+    <div class="col-8 col-lg-6 mx-auto">
+      <p class="text-center text-lg-start ms-0 ms-lg-4 my-font ">Invest in <span class="text-info">What Matters</span>
+        to you with <span class="text-info">Smart Portfolio</span></p>
+    </div>
+    <div class="col-12 col-lg-6 d-flex align-items-center">
+      <img class="my-img" src="./images/invest-img.png" alt="">
+
+    </div>
+
+  </section>
+
+
+  <!-- refer&earn -->
+  <section id="refer-earn" class="d-flex align-items-center justify-content-center">
+    <div style="width: 90%;height: 100%; margin: 0 auto;border-radius: 30px;background-color:  #1DB5FF
+    ;">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="mt-10 mt-md-11 mt-lg-n10 px-10 px-md-11 ps-lg-0 pe-lg-13 text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
-              <p class="mb-5 text-white" style=" font-size: 25px; font-family: 'Roboto', sans-serif;">Small Todays, Big Tomorrows</p>
-              <h1 class="display-4 lead lh-sm mb-7 pe-md-10  text-white" style="font-family: 'Roboto', sans-serif;"> <b> RuDo helps you <span style="color: #1db5ff;"> save, invest,
-                & build</span> long term wealth</b></h1>
-                <p class="lead fs-25 mb-5 text-white" style="font-family: 'Roboto', sans-serif;">Empowering the Uninvested and Underinvested to
-                  achieve long-term wealth through micro saving,
-                  automated investing, and financial education.</p>
-              <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                <span><a href="#" class="btn btn-lg btn-rudo-blue rounded me-2">Join Community <i class="uil uil-arrow-right"></i></a> </span>
-                
+          <div class="col-lg-7 col-sm-12 p-4 re-content" style="margin: auto;">
+            <p class="fw-bold"><span class="fs-1" style="color: #091E42;">Refer & Earn </span><span class="fs-5">
+                AED</span><span class="fs-1"> 20</span></p>
+            <p style="color: #091E42;">For every friend you invite, you’ll both get AED 20 worth of RuDo Wealth
+              management fee credits. What’s more, you can refer as many friends as you like! Together, let's empower
+              everyone to build long-term wealth and achieve financial wellness!</p>
+            <button class="btn btn-dark" style="width: 200px;background-color: #091E42;">Refer & Earn</button>
+            <p class="fs-6 mt-2" style="color: #172B4D;">*Terms & Conditions apply</p>
+          </div>
+          <div class="col-lg-5 col-sm-12 d-lg-flex align-items-center justify-content-center re-bg-img">
+            <img src="./images/r&e.svg" alt="" style="height: 80%;">
+          </div>
+
+          <!-- Force next columns to break to new line -->
+          <!-- <div class="w-100"></div> -->
+
+        </div>
+      </div>
+
+      <div class="">
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Recognise -->
+  <section style="height: 22rem;margin-top: 100px;">
+
+    <div style="width: 70%;height: 100%; margin: auto;">
+      <p class="fs-3" style="text-align: center; margin-bottom: 5%;">Recognised by</p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 15rem;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 col-lg-2 mx-auto p-3 " style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-1.svg" alt="" width="100%" >
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3 " style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-2.svg" alt="" width="100%">
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3 b-box-3" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-3.svg" alt="" width="100%">
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3 b-box-4" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-4.svg" alt="" width="100%">
+                </div>
               </div>
             </div>
-            <!--/div -->
           </div>
-          <!--/column -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 col-lg-2 mx-auto p-3 " style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-1.svg" alt="" width="100%" >
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3 " style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-2.svg" alt="" width="100%">
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3 " style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-3.svg" alt="" width="100%">
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-4.svg" alt="" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 col-lg-2 mx-auto p-3" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-1.svg" alt="" width="100%" >
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-2.svg" alt="" width="100%">
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-3.svg" alt="" width="100%">
+                </div>
+                <div class="col-6 col-lg-2 mx-auto p-3" style="background-color: #FEFEFE;border-radius: 20px;">
+                  <img src="./images/brands/brand-img-4.svg" alt="" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!--/.row -->
+        <div class="carousel-indicators" style="margin-top: 50px;">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-info" aria-current="true" aria-label="Slide 1" style="width: 10px;height: 10px;border-radius: 50%;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-info" aria-label="Slide 2" style="width: 10px;height: 10px;border-radius: 50%;margin: 0 20px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-info" aria-label="Slide 3" style="width: 10px;height: 10px;border-radius: 50%;"></button>
+        </div>
       </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-   
-    <!-- <div contenteditable="true">
 
-      hello world
+    </div>
 
-    </div> -->
+  </section>
 
-    <section class="wrapper bg-rudo">
-      <div class="container py-14 py-md-16 text-center">
+  <!-- blogs -->
+  <section style="margin-top: 100px;">
+    <div class=" col-10 col-lg-6 text-center mx-auto">
+      <p class="fs-1">Invest a little time in the details</p>
+      <p style="color: #fefefe93;">Still deciding if we’re right for you? These frequently asked questions may help.</p>
+    </div>
+    <hr
+      style="width: 320px;height: 2px;background: linear-gradient(270deg, rgba(29, 181, 255, 0) 0%, #1DB5FF 50.64%, rgba(29, 181, 255, 0) 100%);margin: auto;">
+    <div style="width: 90%; margin: 30px auto;">
+      <div class="container">
         <div class="row">
-          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h1 class="display-1 text-white mb-10 px-xl-10" style="font-family: 'Roboto', sans-serif;">Smart way to invest</h1>
+          <div class="col-lg-4 p-4">
+            <p class="fs-5" style="color: #FEFEFE;">What is automated investing?</p>
+            <p style="color: #A7B5BE;">Automated investing is a powerful tool that automatically creates an investment
+              portfolio tailored to your risk profile. It is a passive investment strategy which saves you time and
+              provides a hassle-free way to build a diversified global portfolio.
+              RuDo automatically rebalances your portfolio to keep it up-to-date and optimised for maximum returns.
+              Invest effortlessly and intelligently with RuDo's Smart Portfolio.</p>
           </div>
-          
-          <!-- /column -->
-        </div>
-        <!-- <hr style="margin-top: 2rem !important; margin-bottom: 2rem !important;" color="#1db5ff" /> -->
-        <!-- /.row -->
-        <div class="position-relative">
-          <!-- <div class="shape rounded-circle bg-soft-blue rellax w-16 h-16" data-rellax-speed="1" style="bottom: -0.5rem; right: -2.2rem; z-index: 0;"></div>
-          <div class="shape bg-dot yellow rellax w-16 h-17" data-rellax-speed="1" style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div> -->
-          <div class="row gx-md-5 gy-5 text-center">
-            
-            <!--/column -->
-            <div class="col-md-6 col-xl-4">
-              <div class="card shadow-lg">
-                <div class="card-body">
-                  <img src="./assets/img/FRAMETIM2Asset 1.png" class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
-                  <h4 class="text-white">Automatic Recurring</h4>
-                  <p class="mb-2 text-white">Make investing a habit with recurring
-                    investments - daily, weekly, or monthly.
-                    Start small, try AED 20 a day.</p>
+          <div class="col-lg-4 p-4">
+            <p class="fs-5" style="color: #FEFEFE;">Is automated investing a good idea?</p>
+            <p style="color: #A7B5BE;">Automated investing offers competitive pricing, convenience, and eliminates human
+              errors. Clients can enjoy a hands-off approach, avoiding active trading's time-consuming research and
+              management. Discover the benefits of automated investing with RuDo.</p>
+          </div>
+          <div class="col-lg-4 p-4">
+            <p class="fs-5" style="color: #FEFEFE;">How does round-up investing work?</p>
+            <p style="color: #A7B5BE;">Round-up investing operates by linking a user's bank account to their RuDo
+              investment account. With each purchase, the transaction amount is rounded up to the nearest AED 5, and the
+              remaining amount is automatically invested into the account.</p>
+          </div>
 
-                </div>
-                <!--/.card-body -->
-              </div>
-              <!--/.card -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 col-xl-4">
-              <div class="card shadow-lg">
-                <div class="card-body">
-                  <img src="./assets/img/FRAMETIM3Asset 1.png" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
-                  <h4 class="text-white">Automatic Portfolio Rebalancing</h4>
-                  <p class="mb-2 text-white">We'll rebalance your portfolio to maintain
-                    your allocation in line with your long-
-                    term financial goals.</p>
-                </div>
-                <!--/.card-body -->
-              </div>
-              <!--/.card -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 col-xl-4">
-              <div class="card shadow-lg">
-                <div class="card-body">
-                  <img src="./assets/img/FRAMETIMAsset 1.png" class="svg-inject icon-svg icon-svg-md text-blue mb-3" alt="" />
-                  <h4 class="text-white">Automatic Dividend Reinvesting</h4>
-                  <br>
-                  <p class="mb-2 text-white">We will automatically reinvest the
-                    dividends you earn on your investments.</p>
-                </div>
-                <!--/.card-body -->
-              </div>
-              <!--/.card -->
-            </div>
-            <!--/column -->
+          <div class="col-lg-4 p-4">
+            <p class="fs-5" style="color: #FEFEFE;">What is a robo-advisor?</p>
+            <p style="color: #A7B5BE;">A robo-advisor is a digital financial advisor that automatically builds and
+              manages your portfolio based on your investment preferences, using passive index investing strategies.
+              Robo-advisors consider your risk tolerance and financial goals for minimal guidance from a human financial
+              advisor..</p>
           </div>
-          <!--/.row -->
+          <div class="col-lg-4 p-4">
+            <p class="fs-5" style="color: #FEFEFE;">What is round-up investing?</p>
+            <p style="color: #A7B5BE;">Roundup investing automatically invests spare change from everyday purchases,
+              usually small amounts of money, into a portfolio of global assets such as stocks, bonds, real estate or
+              gold.</p>
+          </div>
+          <div class="col-lg-4 p-4">
+            <p class="fs-5" style="color: #FEFEFE;">What is Refer & Earn?</p>
+            <p style="color: #A7B5BE;">It is a referral programme where existing RuDo Wealth users can refer new users
+              to RuDo by using their referral code. Both the referrer and referee will receive AED 20 worth of RuDo
+              Wealth management fee credits, once the referee’s investment is successful.</p>
+          </div>
+
+
         </div>
-        <!-- /.position-relative -->
       </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+
+    </div>
+  </section>
 
 
-
-    <section class="wrapper bg-rudo">
-
-      
-
-      <div class="container py-14 py-md-16">
-        <div class="row text-center">
-          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h1 class="display-1 text-white mb-10 px-xl-10" style=" font-weight: bold; font-family: 'Roboto', sans-serif;">Grow your spare change
-              automatically with <span class="underline-3 style-1 sky">Roundup</span></h1>
-
-              <p class="fs-25 text-white mb-5 px-xl-3">Transform your everyday purchases into investments! With spare change from AED
-                18.50 coffee, invest AED 1.50 towards your future.</p>
-          </div>
-          
-          <!-- /column -->
-        </div>
-        <div class="row gx-md-8 gy-10 align-items-center" style="
-        margin: 10px 0px 0px 0px;
-    ">
-          <div class="col-lg-6 offset-lg-1 order-lg-2 position-relative" >
-            <div class="containervideo">
-              <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6rYzZQXJ-3Q"></iframe>
-            </div>
-         
-            <!--/.card -->
-          </div>
-          <!--/column -->
-
-<!-- <img src="./assets/img/bluetick.png" width="60px" height="auto" alt=""> -->
-<!-- <img src="./assets/img/bluetick.png" width="60px" height="auto" alt=""> -->
-<!-- <img src="./assets/img/bluetick.png" width="60px" height="auto" alt=""> -->
-
-<style>
-  .marginlist{
-    margin-left: 20px;
-  }
-
-  .containervideo{
-  
-  padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  }
-
-  /* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-</style>
-
-          <div class="col-lg-5">
-  
-            <ul class="icon-list bullet-bg bullet-soft-aqua">
-              <li style="margin-bottom: 20px;"><span><i class="uil uil-check"></i></span><span style="margin-bottom: 20px; font-family: 'Roboto', sans-serif; " class="lead fs-25 marginlist text-white">Link all of your bank accounts</span></li>
-              <li style="margin-bottom: 20px;"><span><i class="uil uil-check"></i></span><span style="margin-bottom: 20px; font-family: 'Roboto', sans-serif; " class="lead fs-25 marginlist text-white">We'll set aside your spare change from every
-                purchase</span></li>
-              <li style="margin-bottom: 20px;"><span><i class="uil uil-check"></i></span><span style="margin-bottom: 20px; font-family: 'Roboto', sans-serif; " class="lead fs-25 marginlist text-white">And invest the change once it reaches at least
-                $5</span></li>
-              <!-- <li style="margin-bottom: 20px;"><span><i class="uil uil-check"></i></span><span style="margin-bottom: 20px; font-family: 'Roboto', sans-serif; " class="lead fs-25 marginlist">List item.</span></li> -->
-            </ul>
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+  <!-- footer -->
+  <section class="border-top border-bottom border-info py-lg-3">
 
 
-    <!-- Portfolio Section -->
-
-    <!-- End - Portfolio Section -->
-
-   
-
-    <section class="wrapper" style="background-color: #1a1931;">
-      <div class="container py-2 py-lg-8 py-md-16">
+    <div class="mx-auto" style="width: 90%;">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-xl-10 mx-auto">
-            <div class="row align-items-center counter-wrapper gy-6 text-center">
-              <div class="col-md-4">
-                <img src="./assets/img/image153.jpg" class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                
-              </div>
-           
-          
-              <!--/column -->
-              <div class="col-md-4">
-                <img src="./assets/img/image153.jpg" class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                
-              </div>
-              <!--/column -->
-              <div class="col-md-4">
-                <img src="./assets/img/image153.jpg" class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
+          <div class="col-10 col-lg-2 mt-lg-4 pt-4 pt-lg-0">
+            <a class="mx-4 mx-lg-0"><img src="./images/Logo/Full_logo.svg" alt="" style="width: 120px;"></a>
           </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+          <div class="col-10 col-lg-8 ">
 
 
-    <!-- Calculator (Groww App Theme) -->
-    <section class="wrapper bg-rudo">
+            <div class="container text-info my-4">
 
-      
-
-      <div class="container py-14 py-md-16">
-        <div class="row text-center">
-          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h1 class="display-1 text-white mb-10 px-xl-10" style=" font-weight: bold; font-family: 'Roboto', sans-serif;"><b> Power of compounding
-             <br> with <br>
-              <span style="color: #1db5ff;"> Incremental Investing</span> </b></h1>
-
-              <p class="fs-17 text-white mb-5 px-xl-3"> <b> Compound returns are the eighth wonder of the world. Experience the magic of compounding
-                returns with RuDo's interest calculator to see how your money could potentially grow over time.</b></p>
-
-
-          </div>
-          
-          <!-- /column -->
-        </div>
-
-
-        <!-- Calculator.... -->
-  
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-
-    <!-- End of Calculator -->
-
-
-
-    <section class="wrapper bg-rudo">
-      <div class="container py-14 py-md-16">
-        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-          <div class="col-lg-6 position-relative order-lg-2">
-            
-            <div class="overlap-grid overlap-grid-2">
-              <div class="item">
-                <figure class="rounded shadow"><img src="./assets/img/photos/about2.jpg" srcset="./assets/img/photos/about2@2x.jpg 2x" alt=""></figure>
+              <div class="d-flex flex-column d-lg-inline">
+                <span class="mx-0 mx-lg-4 my-2 my-lg-0">About RuDo</span>
+                <span class="mx-0 mx-lg-4 my-2 my-lg-0">Calculators</span>
+                <span class="mx-0 mx-lg-4 my-2 my-lg-0">Learn</span>
+                <span class="mx-0 mx-lg-4 my-2 my-lg-0">Contact</span>
+                <button class="btn btn-info mx-0 mt-4 mt-lg-0 mb-2 mb-lg-0 mx-lg-4 text-center">Refer & Earn</button>
               </div>
-              <div class="item">
-                <figure class="rounded shadow"><img src="./assets/img/photos/about3.jpg" srcset="./assets/img/photos/about3@2x.jpg 2x" alt=""></figure>
+              <div class="mt-0 mt-lg-5">
+                <p style="color: #A7B5BE;font-size: 12px;">*By using this website, you understand the information being
+                  presented is provided for informational purposes only</p>
               </div>
             </div>
+
+
+
           </div>
-          <!--/column -->
-          <div class="col-lg-6">
-            
-            <h1 class="display-3 text-white" style=" font-weight: bold; font-family: 'Roboto', sans-serif;"><b> Invest in <span style="color:#1db5ff"> What Matters to
-            </span>you with <span style="color:#1db5ff">Smart Portfolio</span></b></h1>
-            
-            <!--/.row -->
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+          <div class="col-6 col-lg-2 text-info mt-lg-3 mx-4 mx-lg-0 pb-4 pb-lg-0">
+            <p class="fs-5">Follow us</p>
+            <div class="d-flex justify-content-between fs-5">
+              <a class="text-info" href=""><i class="fi fi-brands-twitter"></i></a>
+              <a class="text-info" href=""><i class="fi fi-brands-facebook"></i></a>
+              <a class="text-info" href=""><i class="fi fi-brands-linkedin"></i></a>
+              <a class="text-info" href=""><i class="fi fi-brands-instagram"></i></a>
 
-  
 
-    <section class="my-lg-14 mb-8">
-      <!-- container -->
-      <div class="container bg-primary rounded-3">
-        <!-- row -->
-        <div class="row align-items-center">
-          <!-- col -->
-          <div class="col-lg-6 col-12 d-none d-lg-block">
 
-            <div class="text-white p-5 p-xl-0">
-              <!-- text -->
-              <h1 class="h1 text-white mb-6 mb-lg-0 pe-lg-10 pe-xl-5 pe-xxl-18"> <b> <span style="color:#1a1931"> Refer & Earn</span>
-                <span style="font-size: 20px;"> AED</span> 20</b></h1>
-              <p class="mb-6 mb-lg-0 pe-lg-10 pe-xl-5 pe-xxl-18">For every friend you invite, you'll both get AED 20 worth of RuDo Wealth
-                management fee credits. What's more, you can refer as many friends as
-                you like! Together, let's empower everyone to build long-term wealth and
-                achieve financial wellness!</p>
-              <a href="#" class="btn btn-white rounded-pill mb-0 text-nowrap">Refer & Earn</a>
-              <p style="color:#1a1931">*Terms & Conditions apply</p>
+
             </div>
 
-           
-          </div>
-          <div class="col-lg-5 col-12">
-            <div class="d-flex justify-content-center ">
-              <!-- img -->
-              <div class="position-relative">
-                <img src="./assets/img/Frame.png" alt="" class="img-fluid mt-n13">
-                
-               
-              </div>
-            </div>
           </div>
         </div>
       </div>
-    </section>
+
+    </div>
+
+  </section>
+  <section class="col-10 mx-auto" style="padding: 20px 0;">
+    <p style="text-align: center;">Copyright © 2022 - 2023 RuDo Wealth Private Limited. All Rights Reserved.</p>
+  </section>
 
 
 
 
 
-    <!-- /section -->
-  </div>
-  <!-- /.content-wrapper -->
-
-  <div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-  </div>
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./assets/js/plugins.js"></script>
-  <script src="./assets/js/theme.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
   <script>
-    input.addEventListener('paste', (e)=>{
-      e.preventDefault();
-    })
+    function rangeAnim(id, outputId) {
+
+      var slider = document.getElementById(id);
+      var output = document.getElementById(outputId);
+      output.innerHTML = slider.value;
+
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      }
+    }
+    rangeAnim('depositRange', 'depositOutput')
+    rangeAnim('recurringRange', 'recurringOutput')
+    rangeAnim('yearRange', 'yearOutput')
+
   </script>
 </body>
 

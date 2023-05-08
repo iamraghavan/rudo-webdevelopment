@@ -1,0 +1,3999 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Roven Blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-06 13:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Domain: roven-blog"
+
+#: inc/dashboard/tab-getting-started.php:254
+msgid " Go to Demos "
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:390
+msgid " Go to Free vs Pro "
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:351
+msgid " Go to Help & Support "
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:64
+#: inc/dashboard/tab-getting-started.php:204
+#: inc/dashboard/tab-getting-started.php:317
+msgid " Go to Plugins "
+msgstr ""
+
+#: functions.php:684
+msgid " update failed."
+msgstr ""
+
+#: functions.php:681
+msgid " updated!"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "%s Posts Matching"
+msgstr ""
+
+#: comments.php:21
+msgid "(%) Comments"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:285
+#: template-parts/menus/mobile-menu.php:37
+msgid "(this notice is visible only for logged in users that can assign menus)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:231
+#: template-parts/headers/post-header3.php:191
+#: template-parts/headers/post-header4.php:179
+#: template-parts/headers/post-header5.php:307
+#: template-parts/headers/post-header6.php:187
+#: template-parts/headers/post-header7.php:187
+#: template-parts/headers/post-header8.php:179
+#: template-parts/post-styles/post-style3.php:179
+#: template-parts/post-styles/post-style4.php:171
+#: template-parts/post-styles/post-style5.php:156
+#: template-parts/post-styles/post-style6.php:179
+#: template-parts/post-styles/post-style7.php:165
+#: template-parts/post-styles/post-style8.php:171
+msgid "0"
+msgstr ""
+
+#: comments.php:21
+msgid "0 Comments"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:166 inc/dashboard/tab-free-vs-pro.php:201
+#: inc/dashboard/tab-free-vs-pro.php:311 inc/dashboard/tab-free-vs-pro.php:361
+#: inc/dashboard/tab-free-vs-pro.php:401
+#: template-parts/headers/post-header3.php:191
+#: template-parts/headers/post-header4.php:179
+#: template-parts/headers/post-header5.php:307
+#: template-parts/headers/post-header6.php:187
+#: template-parts/headers/post-header7.php:187
+#: template-parts/headers/post-header8.php:179
+#: template-parts/post-styles/post-style3.php:179
+#: template-parts/post-styles/post-style4.php:171
+#: template-parts/post-styles/post-style5.php:156
+#: template-parts/post-styles/post-style6.php:179
+#: template-parts/post-styles/post-style7.php:165
+#: template-parts/post-styles/post-style8.php:171
+msgid "1"
+msgstr ""
+
+#: comments.php:21
+msgid "1 Comment"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:323
+msgid "1 header ad location"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:324
+msgid "1 homepage ad location"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:32
+msgid "1 year of updates"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:382
+msgid "10"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:57
+msgid "11"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:412
+msgid "12"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:56 inc/dashboard/tab-free-vs-pro.php:151
+#: inc/dashboard/tab-free-vs-pro.php:152 inc/dashboard/tab-free-vs-pro.php:292
+#: inc/dashboard/tab-free-vs-pro.php:301 inc/dashboard/tab-free-vs-pro.php:312
+#: inc/dashboard/tab-free-vs-pro.php:341
+msgid "2"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:325
+msgid "2 post ad locations"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:167 inc/dashboard/tab-free-vs-pro.php:202
+#: inc/dashboard/tab-free-vs-pro.php:261 inc/dashboard/tab-free-vs-pro.php:271
+#: inc/dashboard/tab-free-vs-pro.php:281
+msgid "3"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:485
+msgid "3rd Party Plugin Compatibility"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:206 inc/dashboard/tab-free-vs-pro.php:207
+#: inc/dashboard/tab-free-vs-pro.php:232 inc/dashboard/tab-free-vs-pro.php:272
+#: inc/dashboard/tab-free-vs-pro.php:282
+msgid "4"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:120
+msgid "4 extra home page sections"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:320
+#: inc/customizer/pages/404-page-options.php:10
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer/pages/404-page-options.php:17
+msgid "404 Page default image"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:81 inc/dashboard/tab-free-vs-pro.php:381
+msgid "5"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:203
+#: inc/customizer/blog/social-media-options.php:83
+msgid "500px"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:560
+#: inc/widgets/class-rb-widget-social-networks.php:514
+msgid "500px URL:"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:131 inc/customizer/add-upsell.php:144
+#: inc/customizer/add-upsell.php:154 inc/customizer/add-upsell.php:215
+#: inc/customizer/add-upsell.php:240 inc/customizer/add-upsell.php:255
+msgid "6 extra styles for displaying post content as"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:262
+msgid "7"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:287
+msgid "7 extra styles for displaying post content as"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:273
+msgid "7 extra styles to display post header as"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:302 inc/dashboard/tab-free-vs-pro.php:342
+#: inc/dashboard/tab-free-vs-pro.php:362 inc/dashboard/tab-free-vs-pro.php:402
+#: inc/dashboard/tab-free-vs-pro.php:411
+msgid "8"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:82
+msgid "800+"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:135
+msgid ""
+"<strong>Color / Typography Customizer Demo</strong> - imports customizer "
+"settings related to typography and colors. Doesn&rsquo;t reset other "
+"customizer options. Doesn&rsquo;t add any content."
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:128
+msgid ""
+"<strong>Customizer Demo</strong> - only imports demo customizer settings "
+"with the exception of logo settings and ad settings. All theme customizer "
+"options are reset and the demo customizer options are imported. Doesn&rsquo;"
+"t add any content."
+msgstr ""
+
+#. %s: theme name.
+#: inc/dashboard/tab-plugins.php:46
+#, php-format
+msgid ""
+"<strong>Force Regenerate Thumbnails</strong> - you need to install it and "
+"use it if you already had images on the website prior to installing the %s "
+"Theme"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:121
+msgid ""
+"<strong>Full Demo</strong> - imports demo content, customizer options and "
+"widgets. Any existing widgets prior to import are moved to Inactive Widgets. "
+"All theme customizer options are reset and the demo customizer options are "
+"imported. Any existing pages and posts are not affected in any way, the demo "
+"posts and pages are added on top."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:37
+msgid ""
+"<strong>Kirki</strong> - plugin must be installed to be able to edit theme "
+"settings"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:55
+msgid ""
+"<strong>One click demo import</strong> - plugin must be installed to be able "
+"to import demos"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:62
+msgid ""
+"<strong>Other plugins</strong> - these plugins can extend the functionality "
+"of your website by adding a newsletter sign-up, displaying Instagram Feeds, "
+"adding contact forms etc. We advise you to read the description on what each "
+"of them does and decide if you need them or not."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:73
+msgid ""
+"<strong>Plugins marked as pro</strong> are fully integrated only in the PRO "
+"version of the theme"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:300
+msgid "A greater variety of social media sites for the post share"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:17
+msgid "Accent Color 1"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:26
+msgid "Accent Color 2"
+msgstr ""
+
+#. %s: Plugin name.
+#: functions.php:687 inc/dashboard/welcome-main.php:224
+#: inc/dashboard/welcome-main.php:226
+msgid "Activate"
+msgstr ""
+
+#: functions.php:688 inc/dashboard/tab-plugins.php:408
+msgid "Activated"
+msgstr ""
+
+#: functions.php:686
+msgid "Activating..."
+msgstr ""
+
+#: functions.php:689
+msgid "Activation failed."
+msgstr ""
+
+#: inc/dashboard/welcome-ajax.php:41
+msgid "Activation failed: invalid data provided!"
+msgstr ""
+
+#: inc/dashboard/welcome-ajax.php:37
+msgid ""
+"Activation failed: sorry, you are not allowed to install plugins on this "
+"site."
+msgstr ""
+
+#: inc/dashboard/welcome-ajax.php:32
+msgid "Activation failed: the plugin was already activated."
+msgstr ""
+
+#: inc/customizer/add-upsell.php:62
+msgid "Add a button"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:213
+msgid "Add a featured posts section at the start of blog archives"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:40
+msgid "Add border bottom"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:58
+msgid "Add border bottom to header top"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:100
+msgid "Add border top and padding to all Footer sections"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:901
+msgid "Add border top to Copyright"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:887
+msgid "Add padding top to Copyright"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:88
+msgid "Add padding top to footer"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:66
+msgid ""
+"Adds a visual efect to the section titles. (Affects the Featured, Related "
+"and Home Latest Posts sections title)"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:77
+msgid ""
+"Adds a visual efect to the Widget section titles. Only applies to legacy "
+"widgets and our own custom widgets!"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:203
+msgid "AdRotate Banner Manager - AdSense Ads & more"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:12
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/customizer/other/advertisements-options.php:10
+msgid "Advertisements"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:204
+msgid ""
+"Advertising is easy with AdRotate. manage, schedule, rotate and track your "
+"ads you make yourself or get from Amazon, Adsense, affiliates and many more. "
+"<strong>You can configure ads and it generates shortcodes that you can "
+"easily insert in the theme&rsquo;s ad locations.</strong>"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:105 inc/dashboard/tab-free-vs-pro.php:225
+msgid "Advertisments"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:525
+msgid "Advertisments (AdRotate Banner Manager - AdSense Ads &amp; more)"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:261
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:506
+#: inc/widgets/class-rb-widget-social-networks.php:470
+#: inc/widgets/class-rb-widget-text.php:116
+msgid "Align content desktop:"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:245
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:490
+#: inc/widgets/class-rb-widget-social-networks.php:454
+#: inc/widgets/class-rb-widget-text.php:100
+msgid "Align content mobile:"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:253
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:498
+#: inc/widgets/class-rb-widget-social-networks.php:462
+#: inc/widgets/class-rb-widget-text.php:108
+msgid "Align content tablet:"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:194
+msgid "AMP"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:100
+msgid "AMP Support"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:195
+msgid ""
+"An easier path to great Page Experience for everyone. Powered by AMP. "
+"<strong>Creates AMP versions of your blog pages that load much faster but "
+"are limited design wise.</strong>"
+msgstr ""
+
+#: inc/template-functions.php:699
+msgid "Archive/Category Sidebar"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:330
+msgid "Archives, Category, Search Results and Author Pages"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:177
+msgid ""
+"Assign multiple bylines to posts, pages, and custom post types via a search-"
+"as-you-type input box. <strong>A good solution if you have multiple authors "
+"contributing to a post.</strong>"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:385
+msgid "Author box"
+msgstr ""
+
+#: inc/template-functions.php:708
+msgid "Author Sidebar"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:10
+msgid "Authors"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:80
+msgid "Available fonts"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:87
+msgid "Background Color CTA"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:33
+msgid "Before you can import demo content"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:269
+#: inc/customizer/blog/social-media-options.php:89
+msgid "bitbucket"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:584
+#: inc/widgets/class-rb-widget-social-networks.php:538
+msgid "bitbucket URL:"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Blazing Fast | 4 Starter Demo Websites | One Click Demo Import | Powerful "
+"Theme Dashboard | Well organised Customizer. Roven Blog Gutenberg Theme is a "
+"modern and user-friendly WordPress theme that is perfect for bloggers who "
+"want a clean and modern platform to share their thoughts with the world. It "
+"comes bundled with four starter websites demos that can so you can be up and "
+"running in no time. It comes with a clean design, which allows your content "
+"to shine and be the main focus. It is lightweight, very customizable and "
+"works perfectly with page builders: Gutenberg, Elementor, Visual Composer "
+"(WP Bakery), Beaver Builder etc. It is integrated with Woocommerce and has a "
+"lot of features: dark mode, RTL, translation ready, AMP ready, child theme, "
+"smart typography, customizable color, well documented and many more. Looking "
+"for a true blogging theme? Roven Blog is the perfect theme for you! Check "
+"the demos here: https://roventhemes.com/theme/roven-blog-free-wordpress-blog-"
+"theme/#demo-websites"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:56
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/blog/blog-archives-options.php:10
+msgid "Blog Archives"
+msgstr ""
+
+#: inc/customizer/blog/blog-archives-featured-posts-options.php:10
+msgid "Blog Archives Featured Posts"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:74
+msgid "Body Typography"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:105
+msgid "Border Color CTA"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:60
+msgid "Border Radius for images, buttons and other elements"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:245
+msgid "boxed"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:519
+msgid "brand color"
+msgstr ""
+
+#: comments.php:79
+msgid "Cancel reply"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:421
+msgid "Cannot Activate"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:314
+msgid "Cannot Import"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:450
+msgid "Cannot Install"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:399
+msgid "Cannot Update"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:286
+msgid ""
+"Category (used if \"posts from category\" option was selected in \"What "
+"posts to show\"):"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:248
+#: inc/widgets/class-rb-widget-logo.php:256
+#: inc/widgets/class-rb-widget-logo.php:264
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:493
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:501
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:509
+#: inc/widgets/class-rb-widget-social-networks.php:457
+#: inc/widgets/class-rb-widget-social-networks.php:465
+#: inc/widgets/class-rb-widget-social-networks.php:473
+#: inc/widgets/class-rb-widget-text.php:103
+#: inc/widgets/class-rb-widget-text.php:111
+#: inc/widgets/class-rb-widget-text.php:119
+msgid "Center"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:150
+msgid "Changelog"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:190
+msgid ""
+"Changes made to the theme files are usually overwritten when the theme is "
+"updated. You can avoid this by using a child theme. We have prepared one for "
+"you. Just download it and activate it. Any changes made in the customizer "
+"prior to activating the child theme will be lost, so make sure to activate "
+"it first if you want to use a child theme."
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:184
+msgid "Child Theme "
+msgstr ""
+
+#: inc/customizer/add-upsell.php:133
+msgid "Choose between 1 and 5 posts to be shown per slide"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:134
+msgid "Choose between 4 image aspect ratios"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:53
+msgid "Choose between 800+ different fonts"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:34
+msgid "Choose from an additional 9 Section / Widget Title Styling"
+msgstr ""
+
+#: template-parts/menus/mobile-menu.php:56
+msgid "Close Mobile Menu"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:176
+msgid "Co-Authors Plus"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:183
+msgid "Color scheme toggler"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:10
+msgid "Colors"
+msgstr ""
+
+#: comments.php:86
+msgid "Comment"
+msgstr ""
+
+#: comments.php:34 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:145
+msgid "Conditional display of the header top and It's sections"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:335
+msgid "Configurable Featured posts area"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:167 inc/customizer/add-upsell.php:176
+msgid "Configuration options similar to the Featured Posts section"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:272
+msgid "Configure Post share location"
+msgstr ""
+
+#: inc/ocdi-filters.php:201
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:122
+msgid "Contact Form 7 "
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:500
+msgid "Contact forms (Contact Form 7)"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:83
+#: inc/customizer/add-title-dividers.php:137
+#: inc/customizer/add-title-dividers.php:173
+#: inc/customizer/add-title-dividers.php:191
+#: inc/customizer/add-title-dividers.php:286
+#: inc/customizer/add-title-dividers.php:313
+#: inc/customizer/add-title-dividers.php:322
+#: inc/customizer/add-title-dividers.php:340
+#: inc/customizer/add-title-dividers.php:367
+#: inc/customizer/add-title-dividers.php:412
+#: inc/customizer/add-title-dividers.php:439
+#: inc/customizer/add-title-dividers.php:466
+#: inc/customizer/add-title-dividers.php:520
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:27
+#: inc/customizer/pages/homepage-header-hero-options.php:17
+msgid "Content to display"
+msgstr ""
+
+#: footer.php:118 inc/customizer/navigation/footer-options.php:48
+msgid "Copyright &copy; 2023. All rights reserved"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:948
+msgid "Copyright Background color"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:267
+msgid "Copyright Color Scheme"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1056
+msgid "Copyright General Border color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1002
+msgid "Copyright Link Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1038
+msgid "Copyright Link Color Active"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1020
+msgid "Copyright Link Color Hover"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:46
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:984
+msgid "Copyright Text color"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:115
+#: inc/customizer/navigation/cta-options.php:10
+msgid "CTA"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:130
+msgid "Cta Button"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:119
+msgid "CTA Color Scheme"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:104
+msgid "CTA Font"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:125
+msgid "Cta Link"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:26
+msgid "CTA Text"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:120
+msgid "Cta Text"
+msgstr ""
+
+#: header.php:57 inc/customizer/navigation/cta-options.php:28
+msgid "CTA Text here..."
+msgstr ""
+
+#: inc/template-functions.php:211
+msgid "Current page:"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:135
+msgid "Custom Color scheme CTA"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:220
+msgid "Custom color scheme for available widgetable areas"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:180
+msgid "Custom color scheme Header"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:155
+msgid "Custom color scheme Header top"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:190
+msgid "Custom color scheme Offcanvas"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:65
+msgid "Custom color schemes"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:72
+msgid "Custom styling options for menus"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:75
+msgid "Custom typography"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:430
+msgid "Custom widget: About Author"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:435
+msgid "Custom widget: Archives"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:440
+msgid "Custom widget: Categories"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:445
+msgid "Custom widget: Categories with background"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:455
+msgid "Custom widget: Custom Logo"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:450
+msgid "Custom widget: Horizontal Menu"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:460
+msgid "Custom widget: Posts"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:415
+msgid "Custom widget: Social Networks"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:420
+msgid "Custom widget: Social Networks List"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:425
+msgid "Custom widget: Social Networks List Alternative"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:465
+msgid "Custom widget: Tag Cloud"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:470
+msgid "Custom widget: Text"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:52 inc/dashboard/tab-free-vs-pro.php:62
+msgid "Customizable"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:390
+msgid "Customizable Author box info"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:210
+msgid "Customizable copyright text"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:375
+msgid "Customizable post share location"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:31
+msgid "Customize border radius for cards, inputs and buttons"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:62
+msgid "Customize button"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:119
+msgid "Customize Colors "
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:933
+msgid "Customize Copyright Color Scheme?"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:72
+msgid "Customize CTA Color Scheme?"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:216 inc/customizer/add-upsell.php:229
+#: inc/customizer/add-upsell.php:274 inc/customizer/add-upsell.php:289
+msgid "Customize displayed post meta info"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:102
+msgid "Customize Footer Color Scheme?"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:264
+msgid "Customize Header Color Scheme?"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:30
+msgid "Customize layout width"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:68
+msgid "Customize Progress Bar Color Scheme?"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:271
+msgid "Customize the author box"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:256
+msgid "Customize the author box or hide it completely"
+msgstr ""
+
+#: inc/customizer/pages/404-page-options.php:18
+msgid "Customize the default 404 page with a background image."
+msgstr ""
+
+#: inc/customizer/add-upsell.php:311
+msgid "Customize the look of the shop page"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:288
+msgid "Customize the number of columns"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:286
+msgid "Customize the number of related posts shown"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:124
+msgid "Customize Typography "
+msgstr ""
+
+#: inc/ocdi-filters.php:54 inc/ocdi-filters.php:61 inc/ocdi-filters.php:68
+#: inc/ocdi-filters.php:75
+msgid "Customizer Demo"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:251
+msgid "Customizer Demos"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:100
+#: inc/dashboard/tab-getting-started.php:175
+msgid "Customizer quick links"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:38
+msgid "Dark Mode Colors"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:115
+msgid "Dark Mode Image logo"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:132
+msgid "Dark Mode Image Logo Retina"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:62
+msgid "Dark Mode: Accent Color 1"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:71
+msgid "Dark Mode: Accent Color 2"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:141
+msgid "Dark Mode: Background Color CTA"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:159
+msgid "Dark Mode: Border Color CTA"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:966
+msgid "Dark Mode: Copyright Background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1146
+msgid "Dark Mode: Copyright General Border color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1092
+msgid "Dark Mode: Copyright Link Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1128
+msgid "Dark Mode: Copyright Link Color Active"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1110
+msgid "Dark Mode: Copyright Link Color Hover"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:1074
+msgid "Dark Mode: Copyright Text color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:135
+msgid "Dark Mode: Footer Background color"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:80
+msgid "Dark Mode: Link Color"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:98
+msgid "Dark Mode: Link Color Active"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:89
+msgid "Dark Mode: Link Color Hover"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:101
+msgid "Dark Mode: Scroll progress bar color"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:177
+msgid "Dark Mode: Text Color CTA"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:456
+msgid "Dark Mode: Text logo color"
+msgstr ""
+
+#: functions.php:982
+msgid "Default 404 Template"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:29
+msgid "Default Colors"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:25 inc/dashboard/tab-demo-sites.php:79
+#: inc/dashboard/tab-free-vs-pro.php:45 inc/dashboard/welcome-main.php:126
+msgid "Demo Sites"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:231
+#: inc/dashboard/tab-getting-started.php:288
+msgid "Demo sites"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:104
+msgid "Demos overview"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:143
+msgid "Desktop Dropdown Menu Font"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:130
+msgid "Desktop Menu Font"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:343
+msgid "details"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:29
+#: inc/customizer/other/advanced-settings-options.php:70
+msgid "Disabled"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:37
+msgid "Discover Roven Blog Pro"
+msgstr ""
+
+#: functions.php:690
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/customizer/blog/blog-archives-options.php:41
+msgid "Display Archive title"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:17
+msgid "Display author bio"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:130
+msgid "Display content as a grid"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:155 inc/customizer/add-upsell.php:214
+#: inc/customizer/add-upsell.php:239 inc/customizer/add-upsell.php:254
+msgid "Display content as a masonry grid"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:167 inc/customizer/add-upsell.php:176
+msgid "Display content as a slider, classic grid or masonry grid"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:17
+msgid "Display CTA"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:44
+msgid "Display dark mode toggler"
+msgstr ""
+
+#: inc/customizer/blog/blog-archives-options.php:50
+msgid "Display description"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:161
+msgid "Display empty categories?"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-tag-cloud.php:94
+msgid "Display empty tags?"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:329
+msgid "Display google ads"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:17
+msgid "Display Header top"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:326
+msgid "Display image ads"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:327
+msgid "Display js ads"
+msgstr ""
+
+#: inc/customizer/pages/single-page-options.php:17
+msgid "Display page header"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:259
+msgid "Display post author?"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:256
+msgid "Display post category?"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:253
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:250
+msgid "Display post featured image?"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:35
+msgid "Display post share buttons"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:26
+msgid "Display related posts"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:44
+msgid "Display scroll progress bar"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:35
+msgid "Display search box"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:328
+msgid "Display shortcode ads"
+msgstr ""
+
+#: inc/customizer/pages/homepage-options.php:32
+msgid "Display Sidebar"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:17
+#: inc/customizer/blog/blog-archives-options.php:32
+#: inc/customizer/blog/search-results-options.php:17
+msgid "Display sidebar"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:242
+msgid "Display style:"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-tag-cloud.php:21
+msgid "Displays a custom tag cloud"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:21
+msgid "Displays a list of all the post categories"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-archives.php:21
+msgid "Displays a list of Archives"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:21
+msgid "Displays a list of posts"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:21
+msgid "Displays a logo."
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:21
+msgid "Displays a set of icon links to social network websites"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:21
+msgid "Displays an alternative list of links to social network websites"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by the fonts, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:453
+msgctxt "DM Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:40 inc/dashboard/tab-help-support.php:116
+msgid "Documentation"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:84
+msgid ""
+"Don&rsquo;t hesitate cu contact us with any question regarding the theme."
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:203
+msgid "Download Child Theme (Roven Blog)"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:181
+#: inc/customizer/blog/social-media-options.php:81
+msgid "dribbble"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:552
+#: inc/widgets/class-rb-widget-social-networks.php:506
+msgid "dribbble URL:"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:110
+msgid "E-commerce Support"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:475
+msgid "Ecommerce"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:510
+msgid "Ecommerce (WooCommerce)"
+msgstr ""
+
+#: comments.php:89
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:32
+msgid "Enable sticky sidebar"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:28
+#: inc/customizer/other/advanced-settings-options.php:69
+msgid "Enabled"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:24
+msgid ""
+"Enabling this option is recommended only if you plan to use the Popular "
+"Posts selection in Featured or Home Hero sections."
+msgstr ""
+
+#: searchform.php:23
+msgid "Enter your search topic..."
+msgstr ""
+
+#: 404.php:41
+msgid "Error 404 - Page not found"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:18
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer/blog/blog-archives-options.php:17
+msgid "Exclude featured posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:93
+msgid "Exclude posts from sections placed above Featured Posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-header-hero-options.php:83
+msgid "Exclude posts from sections placed above Header Hero Posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-recent-posts-options.php:27
+msgid "Exclude posts from sections placed above Latest Posts"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:167 inc/customizer/add-upsell.php:176
+msgid "Extra hompage section that can display posts"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:185 inc/customizer/add-upsell.php:194
+msgid "Extra hompage section that can display widgets"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:111
+msgid "Extra page header styles to choose from"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:229
+msgid ""
+"Extra section that allows you to feature posts on the category and tag pages,"
+" above the content"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:14
+msgid "Facebook"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:104
+#: inc/customizer/blog/social-media-options.php:74
+msgid "facebook"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:524
+#: inc/widgets/class-rb-widget-social-networks.php:478
+msgid "facebook URL:"
+msgstr ""
+
+#: inc/customizer/pages/single-page-options.php:26
+msgid "Featured Image Aspect Ratio"
+msgstr ""
+
+#: inc/customizer/pages/homepage-options.php:15
+msgid "Featured Posts"
+msgstr ""
+
+#: template-parts/posts/archive-featured.php:30
+#: template-parts/posts/home-featured.php:27
+#: inc/customizer/pages/homepage-featured-posts-options.php:20
+msgid "Featured posts"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:51 inc/dashboard/tab-free-vs-pro.php:61
+msgid "Fixed"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:258
+#: inc/customizer/blog/social-media-options.php:88
+msgid "flickr"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:580
+#: inc/widgets/class-rb-widget-social-networks.php:534
+msgid "flickr URL:"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:17
+msgid "Font base size"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:42
+msgid "Font Scale"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:27
+msgid "Font Scale (mobile)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:195
+#: inc/customizer/navigation/footer-options.php:10
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:153
+msgid "Footer Accent Color 1"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:171
+msgid "Footer Accent Color 2"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:117
+msgid "Footer Background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:459
+msgid "Footer Card 1 title background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:477
+msgid "Footer Card 6 background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:495
+msgid "Footer Card 7 background color"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:230
+msgid "Footer Color Scheme"
+msgstr ""
+
+#: inc/template-functions.php:726
+msgid "Footer Colum 1"
+msgstr ""
+
+#: inc/template-functions.php:735
+msgid "Footer Colum 2"
+msgstr ""
+
+#: inc/template-functions.php:744
+msgid "Footer Colum 3"
+msgstr ""
+
+#: inc/template-functions.php:753
+msgid "Footer Colum 4"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:513
+msgid "Footer Dark Mode: Accent Color 1"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:531
+msgid "Footer Dark Mode: Accent Color 2"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:819
+msgid "Footer Dark Mode: Card 1 title background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:837
+msgid "Footer Dark Mode: Card 6 background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:855
+msgid "Footer Dark Mode: Card 7 background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:711
+msgid "Footer Dark Mode: Disabled Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:747
+msgid "Footer Dark Mode: Focused Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:693
+msgid "Footer Dark Mode: Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:729
+msgid "Footer Dark Mode: Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:639
+msgid "Footer Dark Mode: Form Elements Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:675
+msgid "Footer Dark Mode: Form Form Labels Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:657
+msgid "Footer Dark Mode: Form Placeholders Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:621
+msgid "Footer Dark Mode: General Background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:603
+msgid "Footer Dark Mode: General Border color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:585
+msgid "Footer Dark Mode: Headings color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:765
+msgid "Footer Dark Mode: Link Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:801
+msgid "Footer Dark Mode: Link Color Active"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:783
+msgid "Footer Dark Mode: Link Color Hover"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:549
+msgid "Footer Dark Mode: Muted color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:567
+msgid "Footer Dark Mode: Text color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:351
+msgid "Footer Disabled Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:387
+msgid "Footer Focused Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:333
+msgid "Footer Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:369
+msgid "Footer Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:279
+msgid "Footer Form Elements Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:315
+msgid "Footer Form Form Labels Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:297
+msgid "Footer Form Placeholders Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:261
+msgid "Footer General Background color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:243
+msgid "Footer General Border color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:225
+msgid "Footer Headings color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:26
+msgid "Footer layout"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:405
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:441
+msgid "Footer Link Color Active"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:423
+msgid "Footer Link Color Hover"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:189
+msgid "Footer Muted color"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:139
+msgid "Footer Options "
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:207
+msgid "Footer Text color"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:104
+msgid "Force Regenerate Thumbnails "
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:141
+msgid ""
+"Formerly \"Instagram Feed\". Display clean, customizable, and responsive "
+"Instagram feeds from multiple accounts. Supports Instagram oEmbeds."
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:16 inc/dashboard/tab-free-vs-pro.php:116
+#: inc/dashboard/tab-free-vs-pro.php:141 inc/dashboard/tab-free-vs-pro.php:161
+#: inc/dashboard/tab-free-vs-pro.php:196 inc/dashboard/tab-free-vs-pro.php:226
+#: inc/dashboard/tab-free-vs-pro.php:256 inc/dashboard/tab-free-vs-pro.php:306
+#: inc/dashboard/tab-free-vs-pro.php:321 inc/dashboard/tab-free-vs-pro.php:331
+#: inc/dashboard/tab-free-vs-pro.php:356 inc/dashboard/tab-free-vs-pro.php:406
+#: inc/dashboard/tab-free-vs-pro.php:476 inc/dashboard/tab-free-vs-pro.php:486
+msgid "Free"
+msgstr ""
+
+#: inc/ocdi-filters.php:17 inc/ocdi-filters.php:136 inc/ocdi-filters.php:240
+#: inc/dashboard/tab-demo-sites.php:158
+msgid "Free Demo Site 1"
+msgstr ""
+
+#: inc/ocdi-filters.php:53 inc/ocdi-filters.php:246
+#: inc/dashboard/tab-demo-sites.php:198
+msgid "Free Demo Site 1 (Customizer Only)"
+msgstr ""
+
+#: inc/ocdi-filters.php:26 inc/ocdi-filters.php:144 inc/ocdi-filters.php:241
+#: inc/dashboard/tab-demo-sites.php:163
+msgid "Free Demo Site 2"
+msgstr ""
+
+#: inc/ocdi-filters.php:60 inc/ocdi-filters.php:247
+#: inc/dashboard/tab-demo-sites.php:203
+msgid "Free Demo Site 2 (Customizer Only)"
+msgstr ""
+
+#: inc/ocdi-filters.php:35 inc/ocdi-filters.php:152 inc/ocdi-filters.php:242
+#: inc/dashboard/tab-demo-sites.php:168
+msgid "Free Demo Site 3"
+msgstr ""
+
+#: inc/ocdi-filters.php:67 inc/ocdi-filters.php:248
+#: inc/dashboard/tab-demo-sites.php:208
+msgid "Free Demo Site 3 (Customizer Only)"
+msgstr ""
+
+#: inc/ocdi-filters.php:44 inc/ocdi-filters.php:160 inc/ocdi-filters.php:243
+#: inc/dashboard/tab-demo-sites.php:173
+msgid "Free Demo Site 4"
+msgstr ""
+
+#: inc/ocdi-filters.php:74 inc/ocdi-filters.php:249
+#: inc/dashboard/tab-demo-sites.php:213
+msgid "Free Demo Site 4 (Customizer Only)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:10 inc/dashboard/welcome-main.php:132
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:99
+msgid "Full color editing for all Footer sections"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:73
+msgid "Full color editing for header elements"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:87
+msgid "Full color editing for header top elements"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:75
+msgid "Full color editing for offcanvas elements"
+msgstr ""
+
+#: inc/ocdi-filters.php:18 inc/ocdi-filters.php:27 inc/ocdi-filters.php:36
+#: inc/ocdi-filters.php:45
+msgid "Full Demo"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:152
+msgid "Full Demos"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:44
+msgid "Full site colors editing"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:44
+msgid "Full site dark mode colors editing"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:70
+msgid "Full width strech for page sections"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:15
+msgid "General"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:129
+msgid "General Theme Options "
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:92
+msgid "Get Support"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:31 inc/dashboard/welcome-main.php:123
+msgid "Getting Started"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:247
+#: inc/customizer/blog/social-media-options.php:87
+msgid "github"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:576
+#: inc/widgets/class-rb-widget-social-networks.php:530
+msgid "github URL:"
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:67
+msgid "Go to Dashboard"
+msgstr ""
+
+#: functions.php:515
+msgid "Go to next slide"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:63
+msgid "Go to Plugins"
+msgstr ""
+
+#: functions.php:514
+msgid "Go to previous slide"
+msgstr ""
+
+#: inc/customizer/controls/class-rovenblog-button-section.php:42
+msgid "Go to Theme Dashboard > Plugins"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:245
+msgid "Google Ads"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:86
+msgid "Have an idea or feedback?"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:160
+#: inc/customizer/navigation/header-options.php:10
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:182
+msgid "Header Color Scheme"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:526
+msgid "Header Dark Mode: Disabled Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:554
+msgid "Header Dark Mode: Focused Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:512
+msgid "Header Dark Mode: Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:540
+msgid "Header Dark Mode: Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:470
+msgid "Header Dark Mode: Form Elements Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:498
+msgid "Header Dark Mode: Form Form Labels Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:484
+msgid "Header Dark Mode: Form Placeholders Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:414
+msgid "Header Disabled Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:330
+msgid "Header dropdown menu color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:344
+msgid "Header dropdown menu hover color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:442
+msgid "Header Focused Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:400
+msgid "Header Form Elements Background Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:428
+msgid "Header Form Elements Border Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:358
+msgid "Header Form Elements Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:386
+msgid "Header Form Form Labels Color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:372
+msgid "Header Form Placeholders Color"
+msgstr ""
+
+#: inc/customizer/pages/homepage-options.php:14
+msgid "Header Hero Posts"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:288
+msgid "Header Icons color"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:302
+msgid "Header Icons hover color"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:165
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:316
+msgid "Header Menu hover color"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:134
+msgid "Header Options "
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:140
+#: inc/customizer/navigation/header-top-options.php:10
+msgid "Header Top"
+msgstr ""
+
+#: inc/template-functions.php:672
+msgid "Header Top Colum 1"
+msgstr ""
+
+#: inc/template-functions.php:681
+msgid "Header Top Colum 2"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:26
+msgid "Header top layout"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:28
+#: inc/customizer/site-styling/typography-options.php:43
+msgid ""
+"Heading font sizes are calculated automatically based on the Font Base Size "
+"and this scaling value."
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:89
+msgid "Headings Typography"
+msgstr ""
+
+#. %s: admin username.
+#: inc/dashboard/welcome-notice.php:41
+#, php-format
+msgid "Hello, %s"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:12 inc/dashboard/welcome-main.php:135
+msgid "Help & Support"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:104
+msgid "Hide Header Top Column 1 on mobile"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:122
+msgid "Hide Header Top Column 2 on mobile"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:90
+msgid "Hide header top on mobile"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:514
+msgid "Hide social network name"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:110
+#: template-parts/menus/header-menu2.php:221
+msgid "Home Link"
+msgstr ""
+
+#: inc/customizer/pages/homepage-options.php:22
+msgid "Home Page Layout"
+msgstr ""
+
+#: inc/template-functions.php:690
+msgid "Home Page Sidebar"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:255
+#: inc/customizer/pages/homepage-options.php:10
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:10
+msgid "Homepage Featured Posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-header-hero-options.php:10
+msgid "Homepage Header Hero"
+msgstr ""
+
+#: inc/customizer/pages/homepage-post-block-1-options.php:10
+msgid "Homepage Post Block 1"
+msgstr ""
+
+#: inc/customizer/pages/homepage-post-block-2-posts.php:10
+msgid "Homepage Post Block 2"
+msgstr ""
+
+#: inc/customizer/pages/homepage-recent-posts-options.php:10
+msgid "Homepage Recent Posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-widgets-block-1-options.php:10
+msgid "Homepage Widgets Block 1"
+msgstr ""
+
+#: inc/customizer/pages/homepage-widgets-block-2-options.php:10
+msgid "Homepage Widgets Block 2"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://roventhemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://roventhemes.com/theme/roven-blog-free-wordpress-blog-theme/"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:144
+msgid ""
+"If a demo requires additional plugins to be installed for it to fully import,"
+" you will be notified and be able to choose which plugins to install. The "
+"plugins chosen will automatically be installed and activated during import."
+msgstr ""
+
+#: inc/customizer/blog/blog-archives-options.php:18
+msgid ""
+"If enabled, the featured posts will be excluded from the archive posts list"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:42
+#: inc/customizer/blog/blog-archives-options.php:75
+#: inc/customizer/blog/search-results-options.php:42
+#: inc/customizer/pages/homepage-recent-posts-options.php:52
+msgid "If you enable the sidebar, a maximum of 2 columns is recommended"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:67
+msgid "If you like using the theme please consider writing a review."
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:70
+#: inc/customizer/navigation/cta-options.php:74
+#: inc/customizer/navigation/footer-options.php:104
+#: inc/customizer/navigation/footer-options.php:935
+#: inc/customizer/navigation/header-options.php:266
+msgid ""
+"If you select to customize this section's color scheme you will be able to "
+"pick custom colors and background colors for it"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:235
+msgid "Image Ads"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:70
+#: inc/customizer/blog/blog-archives-options.php:103
+#: inc/customizer/blog/related-posts-options.php:27
+#: inc/customizer/blog/search-results-options.php:70
+#: inc/customizer/blog/single-post-options.php:53
+#: inc/customizer/pages/homepage-featured-posts-options.php:155
+#: inc/customizer/pages/homepage-recent-posts-options.php:80
+msgid "Image Aspect Ratio"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:175
+msgid "Image Logo"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:80
+msgid "Image logo"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:97
+msgid "Image Logo Retina"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:323 inc/dashboard/tab-demo-sites.php:333
+msgid "Import"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:105
+msgid ""
+"Import demo content, widgets and theme settings with one click. <strong>If "
+"you have content on the website prior to installing and activating the theme,"
+" you will need to regenerate thumbnails for all images. This plugin does "
+"just that.</strong>"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:114
+msgid ""
+"Import your demo content, widgets and theme settings with one click. <strong>"
+"The theme comes with multiple demos that can be imported using this plugin."
+"</strong>"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:159
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:181
+msgid ""
+"In order to be able to customize the theme you must first install and "
+"activate the <strong>Kirki Customizer Framework</strong> plugin."
+msgstr ""
+
+#: inc/customizer/controls/class-rovenblog-button-section.php:38
+msgid ""
+"In order to be able to customize the theme you must first install and "
+"activate the Kirki Customizer Framework plugin."
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:115
+#: inc/customizer/blog/social-media-options.php:75
+msgid "instagram"
+msgstr ""
+
+#: inc/ocdi-filters.php:213
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:495
+msgid "Instagram Feed (Smash Balloon Social Photo Feed)"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:528
+#: inc/widgets/class-rb-widget-social-networks.php:482
+msgid "instagram URL:"
+msgstr ""
+
+#. %s: Plugin name and version.
+#: inc/dashboard/tab-plugins.php:442
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: functions.php:691 inc/dashboard/tab-plugins.php:444
+msgid "Install & Activate"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:45
+msgid "Install required and recommended plugins"
+msgstr ""
+
+#: functions.php:696
+msgid "Installation completed successfully."
+msgstr ""
+
+#: functions.php:698
+msgid "Installation failed."
+msgstr ""
+
+#: functions.php:697
+msgid "Installation failed: "
+msgstr ""
+
+#: functions.php:695
+msgid "Installed!"
+msgstr ""
+
+#: functions.php:693
+msgid "Installing..."
+msgstr ""
+
+#: functions.php:694
+msgid "Installing... please wait."
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:65
+msgid ""
+"It is recommended to disable this feature if your site already has lazy load "
+"added via other means, such as plugins."
+msgstr ""
+
+#: template-parts/content-none.php:65
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:46
+msgid "JavaScript"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:41
+msgid ""
+"JavaScript is necessary if you are using cache plugins, else PHP is "
+"recommended."
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:240
+msgid "JS Ads"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:123
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr ""
+
+#: inc/ocdi-filters.php:189
+msgid "Kirki"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:95
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: template-parts/posts/home-main.php:66
+#: inc/customizer/pages/homepage-recent-posts-options.php:20
+msgid "Latest posts"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:10
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:64
+msgid "Lazy Load (via theme script)"
+msgstr ""
+
+#: comments.php:81
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/customizer/blog/related-posts-options.php:18
+#: inc/customizer/pages/homepage-featured-posts-options.php:18
+#: inc/customizer/pages/homepage-recent-posts-options.php:18
+msgid "Leave empty if you do not want the section to have a title"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:247
+#: inc/widgets/class-rb-widget-logo.php:255
+#: inc/widgets/class-rb-widget-logo.php:263
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:492
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:500
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:508
+#: inc/widgets/class-rb-widget-social-networks.php:456
+#: inc/widgets/class-rb-widget-social-networks.php:464
+#: inc/widgets/class-rb-widget-social-networks.php:472
+#: inc/widgets/class-rb-widget-text.php:102
+#: inc/widgets/class-rb-widget-text.php:110
+#: inc/widgets/class-rb-widget-text.php:118
+msgid "Left"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:41 inc/dashboard/tab-free-vs-pro.php:66
+#: inc/dashboard/tab-free-vs-pro.php:181 inc/dashboard/tab-free-vs-pro.php:191
+#: inc/dashboard/tab-free-vs-pro.php:286
+msgid "Limited"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:246
+msgid "line separator"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:35
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:53
+msgid "Link Color Active"
+msgstr ""
+
+#: inc/customizer/site-styling/colors-options.php:44
+msgid "Link Color Hover"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:187
+msgid "Link to 500px"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:247
+msgid "Link to Bitbucket"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:167
+msgid "Link to Dribbble"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:97
+msgid "Link to Facebook"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:237
+msgid "Link to Flickr"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:227
+msgid "Link to Github"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:107
+msgid "Link to Instagram"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:127
+msgid "Link to Linkedin"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:177
+msgid "Link to Medium"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:157
+msgid "Link to Pinterest"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:257
+msgid "Link to Reddit"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:267
+msgid "Link to Steam"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:147
+msgid "Link to Tumblr"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:277
+msgid "Link to Twitch"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:117
+msgid "Link to Twitter"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:207
+msgid "Link to Vimeo"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:217
+msgid "Link to VK"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:197
+msgid "Link to Xing"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks.php:137
+msgid "Link to Youtube"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:16
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:137
+#: inc/customizer/blog/social-media-options.php:77
+msgid "linkedin"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:536
+#: inc/widgets/class-rb-widget-social-networks.php:490
+msgid "linkedin URL:"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:90
+msgid "Live search results"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:520
+msgid "Live Search Results (SearchWP Live Ajax Search)"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:212
+msgid "Loco Translate"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:117
+msgid "Logo Font"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:133
+msgid "Logo link"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:241
+msgid "Logo Link:"
+msgstr ""
+
+#: inc/ocdi-filters.php:207
+msgid "Mailchimp for WP"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:188
+msgid "Max Logo Image Height (desktop)"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:150
+msgid "Max Logo Image Height (mobile)"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:169
+msgid "Max Logo Image Height (tablet)"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:245
+msgid "Max Logo Image Height Sticky Menu (desktop)"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:207
+msgid "Max Logo Image Height Sticky Menu (mobile)"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:226
+msgid "Max Logo Image Height Sticky Menu (tablet)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:270
+msgid "Max number of columns for grid content"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:280
+msgid "Max number of columns for masonry grid content"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:205
+msgid "Max number of columns per widgetable area"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:144 inc/customizer/add-upsell.php:157
+#: inc/customizer/add-upsell.php:219 inc/customizer/add-upsell.php:243
+#: inc/customizer/add-upsell.php:259
+msgid "Maximum number of columns increased to 4"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:131
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:192
+#: inc/customizer/blog/social-media-options.php:82
+msgid "medium"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:556
+#: inc/widgets/class-rb-widget-social-networks.php:510
+msgid "medium URL:"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:358
+#: inc/customizer/add-title-dividers.php:385
+#: inc/customizer/add-title-dividers.php:430
+#: inc/customizer/add-title-dividers.php:457
+#: inc/customizer/add-title-dividers.php:484
+#: inc/customizer/add-title-dividers.php:538
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:169
+msgid "Mobile Dropdown Menu Font"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:156
+msgid "Mobile Menu Font"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:205
+msgid "Mobile Menu Trigger"
+msgstr ""
+
+#: inc/customizer/controls/class-rovenblog-button-section.php:49
+msgid "More options available in Roven Blog Pro!"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:189
+msgid ""
+"Multiple categories can be selected by pressing CTRL + Click or Shift + Click"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:79
+#: inc/customizer/pages/homepage-header-hero-options.php:69
+msgid "Multiple posts can be selected"
+msgstr ""
+
+#: comments.php:88
+msgid "Name"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:34
+msgid "Navigation"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:338
+msgid "Need help getting started?"
+msgstr ""
+
+#: comments.php:38 comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:490
+msgid "Newletter (MC4WP: Mailchimp for WordPress)"
+msgstr ""
+
+#: inc/template-functions.php:210
+msgid "Next"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:277
+#: template-parts/menus/mobile-menu.php:29
+msgid "No menu assigned to this display location. Assign a menu"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:377
+msgid "Not sure if Roven Blog is enough for your needs?"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:28
+#: inc/customizer/pages/homepage-header-hero-options.php:18
+msgid ""
+"Note: the Popular Posts selection requires Post Views Counting to be enabled "
+"in Advanced Settings section."
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:230
+msgid "Number of ad ready sections"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:410
+msgid "Number of custom widgets"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:41
+#: inc/customizer/blog/blog-archives-options.php:74
+#: inc/customizer/blog/search-results-options.php:41
+#: inc/customizer/pages/homepage-featured-posts-options.php:127
+#: inc/customizer/pages/homepage-recent-posts-options.php:51
+msgid "Number of grid columns"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:260
+msgid "Number of homepage sections"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:380
+msgid "Number of networks for social sharing"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:310 inc/dashboard/tab-free-vs-pro.php:360
+msgid "Number of page header styles"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:229
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:300 inc/dashboard/tab-free-vs-pro.php:340
+msgid "Number of styles of presenting post content (cards)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:400
+msgid "Number of styles of presenting related post content (cards)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:200
+msgid "Number of widgetable footer areas"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:290
+msgid "Number of widgetable sections"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:185
+msgid "Offcanvas widgetable area"
+msgstr ""
+
+#: comments.php:37 comments.php:66
+msgid "Older Comments"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:113
+msgid "One Click Demo Import "
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:310
+msgid ""
+"Only show unique content (Checking this options makes sure that the posts "
+"displayed by this widget are not repeated in other post widgets that also "
+"have this option checked). Note: To see the effect of this option you need "
+"to check the frontend version of the website."
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:40
+msgid "Optional handle Twitter URL"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:86
+msgid "Other"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:50
+msgid "Page content max width"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:111 inc/customizer/add-upsell.php:270
+msgid "Page layout with sidebar right"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:45
+msgid "Pages"
+msgstr ""
+
+#: page.php:43 template-parts/content-post.php:30
+#: template-parts/posts/home-main.php:28
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:45
+msgid "PHP only"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:17
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:170
+#: inc/customizer/blog/social-media-options.php:80
+msgid "pinterest"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:548
+#: inc/widgets/class-rb-widget-social-networks.php:502
+msgid "pinterest URL:"
+msgstr ""
+
+#: functions.php:513
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: functions.php:510
+msgid "Please enter your comment."
+msgstr ""
+
+#: functions.php:512
+msgid "Please enter your email address."
+msgstr ""
+
+#: functions.php:511
+msgid "Please enter your name."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:16 inc/dashboard/welcome-main.php:129
+msgid "Plugins"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:24
+msgid "Plugins overview"
+msgstr ""
+
+#: functions.php:454
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:33
+#: inc/customizer/pages/homepage-header-hero-options.php:24
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:236
+msgid "popular posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:44
+#: inc/customizer/pages/homepage-header-hero-options.php:34
+msgid "Post category"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:515
+msgid "Post co authoring (Co-Authors Plus)"
+msgstr ""
+
+#: comments.php:80
+msgid "Post comment"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:93
+#: template-parts/post-styles/post-style1.php:31
+#: template-parts/post-styles/post-style2.php:30
+#: template-parts/post-styles/post-style3.php:53
+#: template-parts/post-styles/post-style4.php:47
+#: template-parts/post-styles/post-style5.php:34
+#: template-parts/post-styles/post-style6.php:53
+#: template-parts/post-styles/post-style7.php:42
+#: template-parts/post-styles/post-style8.php:47
+msgid "Post Featured Image"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:144
+msgid "Post Settings "
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:370
+msgid "Post share"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:60
+#: inc/customizer/pages/homepage-header-hero-options.php:50
+msgid "Post tag"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:40
+msgid "Post Views Count Type"
+msgstr ""
+
+#: inc/customizer/other/advanced-settings-options.php:23
+msgid "Post Views Counting"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:237
+msgid "posts from category"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:238
+msgid "posts from tag"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:45
+msgid "Posts from the selected category will be shown in the featured section"
+msgstr ""
+
+#: inc/customizer/pages/homepage-header-hero-options.php:35
+msgid "Posts from the selected category will be shown in the header section"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:95
+msgid "Posts with multiple authors"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:61
+msgid "Posts with the selected tag will be shown in the featured section"
+msgstr ""
+
+#: inc/customizer/pages/homepage-header-hero-options.php:51
+msgid "Posts with the selected tag will be shown in the header section"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:35
+msgid "Premium Support"
+msgstr ""
+
+#: inc/template-functions.php:209
+msgid "Prev"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:291
+msgid "preview demo"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:28
+msgid "Priority Support "
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:275 inc/dashboard/tab-help-support.php:31
+#: inc/dashboard/tab-plugins.php:261
+msgid "PRO"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:17 inc/dashboard/tab-free-vs-pro.php:117
+#: inc/dashboard/tab-free-vs-pro.php:142 inc/dashboard/tab-free-vs-pro.php:162
+#: inc/dashboard/tab-free-vs-pro.php:197 inc/dashboard/tab-free-vs-pro.php:227
+#: inc/dashboard/tab-free-vs-pro.php:257 inc/dashboard/tab-free-vs-pro.php:307
+#: inc/dashboard/tab-free-vs-pro.php:322 inc/dashboard/tab-free-vs-pro.php:332
+#: inc/dashboard/tab-free-vs-pro.php:357 inc/dashboard/tab-free-vs-pro.php:407
+#: inc/dashboard/tab-free-vs-pro.php:477 inc/dashboard/tab-free-vs-pro.php:487
+msgid "Pro"
+msgstr ""
+
+#: inc/ocdi-filters.php:93 inc/ocdi-filters.php:234
+#: inc/dashboard/tab-demo-sites.php:178
+msgid "Pro Demo Site 1"
+msgstr ""
+
+#: inc/ocdi-filters.php:250 inc/dashboard/tab-demo-sites.php:218
+msgid "Pro Demo Site 1 (Customizer Only)"
+msgstr ""
+
+#: inc/ocdi-filters.php:103 inc/ocdi-filters.php:235
+#: inc/dashboard/tab-demo-sites.php:183
+msgid "Pro Demo Site 2 - Fashion"
+msgstr ""
+
+#: inc/ocdi-filters.php:251 inc/dashboard/tab-demo-sites.php:223
+msgid "Pro Demo Site 2 - Fashion (Customizer Only)"
+msgstr ""
+
+#: inc/ocdi-filters.php:116 inc/ocdi-filters.php:236
+#: inc/dashboard/tab-demo-sites.php:188
+msgid "Pro Demo Site 3 - Food"
+msgstr ""
+
+#: inc/ocdi-filters.php:252 inc/dashboard/tab-demo-sites.php:228
+msgid "Pro Demo Site 3 - Food (Customizer Only)"
+msgstr ""
+
+#: inc/ocdi-filters.php:126 inc/ocdi-filters.php:237
+#: inc/dashboard/tab-demo-sites.php:193
+msgid "Pro Demo Site 4 - Tech"
+msgstr ""
+
+#: inc/ocdi-filters.php:253 inc/dashboard/tab-demo-sites.php:233
+msgid "Pro Demo Site 4 - Tech (Customizer Only)"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:502
+msgid "Progress Bar Color Scheme"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:167
+msgid "Rank Math SEO"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:168
+msgid ""
+"Rank Math SEO is the Best WordPress SEO plugin combines the features of many "
+"SEO tools in a single package & helps you multiply your SEO traffic."
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:130
+msgid "Read documentation"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:39
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:37
+msgid ""
+"Receive priority email support from the theme&rsquo;s developers. Our goal "
+"is to respond to support requests in 24 hours or quicker."
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:32
+#: inc/customizer/pages/homepage-header-hero-options.php:23
+#: inc/customizer/pages/homepage-options.php:16
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:235
+msgid "recent posts"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:280
+#: inc/customizer/blog/social-media-options.php:90
+msgid "reddit"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:588
+#: inc/widgets/class-rb-widget-social-networks.php:542
+msgid "reddit URL:"
+msgstr ""
+
+#: inc/customizer/blog/related-posts-options.php:10
+msgid "Related Posts"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:395
+msgid "Related posts"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:101
+msgid "Remove backlink to RovenThemes"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:283
+#: inc/widgets/class-rb-widget-logo.php:300
+#: inc/widgets/class-rb-widget-logo.php:317
+#: inc/widgets/class-rb-widget-logo.php:334
+msgid "Remove Image"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:215
+msgid "Remove Roven Themes backlink"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:249
+msgid "REQUIRED"
+msgstr ""
+
+#: comments.php:84
+msgid "Required fields are marked"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:255
+msgid "REQUIRED TO IMPORT DEMO CONTENT"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:20
+msgid "Responsive"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:54
+msgid "Review the theme"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:249
+#: inc/widgets/class-rb-widget-logo.php:257
+#: inc/widgets/class-rb-widget-logo.php:265
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:494
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:502
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:510
+#: inc/widgets/class-rb-widget-social-networks.php:458
+#: inc/widgets/class-rb-widget-social-networks.php:466
+#: inc/widgets/class-rb-widget-social-networks.php:474
+#: inc/widgets/class-rb-widget-text.php:104
+#: inc/widgets/class-rb-widget-text.php:112
+#: inc/widgets/class-rb-widget-text.php:120
+msgid "Right"
+msgstr ""
+
+#. Name of the theme
+#: inc/dashboard/tab-getting-started.php:9 inc/dashboard/tab-plugins.php:10
+#: inc/dashboard/welcome-main.php:28 inc/dashboard/welcome-notice.php:28
+msgid "Roven Blog"
+msgstr ""
+
+#. 1: link to RovenThemes site.
+#: footer.php:136
+#, php-format
+msgid "Roven Blog by <a href=\"%1$s\" target=\"_blank\">RovenThemes</a>."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:245
+msgid ""
+"Roven Blog comes with a variety of demos that you can import in order to "
+"jumpstart you site development."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:294
+msgid ""
+"Roven Blog comes with a variety of demos that you can import in order to "
+"jumpstart you site development. The <strong>One Click Demo Import</strong> "
+"plugin must be installed and activated before demos can be imported."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:243
+msgid ""
+"Roven Blog comes with a variety of demos that you can import in order to "
+"jumpstart you site development. Upgrade to the PRO version of the theme to "
+"instantly unlock all demos."
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:85
+msgid "Roven Blog Dashboard"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-archives.php:19
+msgid "Roven Blog: Archives"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-categories.php:19
+msgid "Roven Blog: Categories"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-logo.php:19
+msgid "Roven Blog: Custom Logo"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-posts.php:19
+msgid "Roven Blog: Posts"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-social-networks.php:19
+msgid "Roven Blog: Social Networks"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:19
+msgid "Roven Blog: Social Networks Alternative"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-tag-cloud.php:19
+msgid "Roven Blog: Tag Cloud"
+msgstr ""
+
+#. Widget base ID.
+#: inc/widgets/class-rb-widget-text.php:19
+msgid "Roven Blog: Text"
+msgstr ""
+
+#. Author of the theme
+msgid "Roven Themes"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:56
+msgid "Roven Themes Logo"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:92
+#: inc/customizer/navigation/header-options.php:68
+msgid "rovenblog"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:51
+msgid "Roventhemes"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:69
+msgid "roventhemes.com"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:520
+msgid "same color"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:83
+msgid "Scroll progress bar color"
+msgstr ""
+
+#: searchform.php:39
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:19
+msgid "Search input"
+msgstr ""
+
+#: inc/customizer/blog/search-results-options.php:10
+msgid "Search Results"
+msgstr ""
+
+#: inc/template-functions.php:717
+msgid "Search Sidebar"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:195
+#: template-parts/menus/header-menu2.php:313
+msgid "Search toggler"
+msgstr ""
+
+#: searchform.php:40
+msgid "Search …"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:185
+msgid "SearchWP Live Ajax Search"
+msgstr ""
+
+#: inc/customizer/blog/related-posts-options.php:17
+#: inc/customizer/pages/homepage-featured-posts-options.php:17
+#: inc/customizer/pages/homepage-recent-posts-options.php:17
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:65
+msgid "Section Title Styling"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:203
+msgid "Select a custom page to be used as the 404 page"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:47
+#: inc/customizer/pages/homepage-featured-posts-options.php:63
+#: inc/customizer/pages/homepage-header-hero-options.php:37
+#: inc/customizer/pages/homepage-header-hero-options.php:53
+msgid "Select an option..."
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:325
+msgid "Select custom 404 page"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:330
+msgid "Select individual mobile and desktop versions of image ads"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:316
+msgid "Select Logo Dark Image"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:282
+msgid "Select Logo Image"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:333
+msgid "Select Logo Retina Dark Image"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-logo.php:299
+msgid "Select Logo Retina Image"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:183
+msgid "Selected Categories:"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:505
+msgid "SEO (Yoast SEO / Rank Math SEO)"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:25
+msgid "SEO Optimised"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:16
+msgid "SHARE"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:21
+msgid "Share on Facebook"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:52
+msgid "Share on GetPocket"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:36
+msgid "Share on Linkedin"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:60
+msgid "Share on Odnoklassniki"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:40
+msgid "Share on Pinterest"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:48
+msgid "Share on Reddit"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:44
+msgid "Share on Tumblr"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:32
+msgid "Share on Twitter"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:56
+msgid "Share on VK"
+msgstr ""
+
+#: template-parts/socialmedia-share.php:64
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:69
+msgid "Shop"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:250
+msgid "Shortcode Ads"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:32
+msgid "Show / Hide Back to top"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:33
+msgid "Show / Hide Post Format Icons"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:90
+#: inc/customizer/blog/blog-archives-options.php:123
+#: inc/customizer/blog/search-results-options.php:90
+#: inc/customizer/pages/homepage-featured-posts-options.php:170
+#: inc/customizer/pages/homepage-recent-posts-options.php:100
+msgid "Show author in post meta"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:99
+#: inc/customizer/blog/blog-archives-options.php:132
+#: inc/customizer/blog/search-results-options.php:99
+#: inc/customizer/pages/homepage-featured-posts-options.php:179
+#: inc/customizer/pages/homepage-recent-posts-options.php:109
+msgid "Show category in post meta"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:265
+msgid "Show content as grid"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:275 inc/dashboard/tab-free-vs-pro.php:350
+msgid "Show content as masonry grid"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:285
+msgid "Show content as slider"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:108
+#: inc/customizer/blog/blog-archives-options.php:141
+#: inc/customizer/blog/search-results-options.php:108
+#: inc/customizer/pages/homepage-featured-posts-options.php:188
+#: inc/customizer/pages/homepage-recent-posts-options.php:118
+msgid "Show date in post meta"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:17
+msgid "Show footer"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:117
+#: inc/customizer/blog/blog-archives-options.php:150
+#: inc/customizer/blog/search-results-options.php:117
+#: inc/customizer/pages/homepage-featured-posts-options.php:197
+#: inc/customizer/pages/homepage-recent-posts-options.php:127
+msgid "Show number of comments in post meta"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-archives.php:109
+#: inc/widgets/class-rb-widget-categories.php:164
+msgid "Show number of posts?"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:180
+msgid "Show only the selected categories"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:167
+msgid "Show parent categories only?"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:126
+#: inc/customizer/blog/blog-archives-options.php:159
+#: inc/customizer/blog/related-posts-options.php:42
+#: inc/customizer/blog/search-results-options.php:126
+#: inc/customizer/pages/homepage-featured-posts-options.php:206
+#: inc/customizer/pages/homepage-recent-posts-options.php:136
+msgid "Show post excerpt"
+msgstr ""
+
+#: inc/customizer/pages/single-page-options.php:10
+msgid "Single Page"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:305
+msgid "Single Pages"
+msgstr ""
+
+#: inc/customizer/blog/single-post-options.php:10
+msgid "Single Post"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:355
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:23
+msgid "Site Styling"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:140
+msgid "Smash Balloon Social Photo Feed"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:10
+msgid "Social Media"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:517
+msgid "Social media icons color:"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:24
+msgid "Social Media Share Layout"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:49
+msgid "Social Media Widgets Layout"
+msgstr ""
+
+#: template-parts/content-none.php:51
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:91
+#: inc/dashboard/tab-getting-started.php:266
+msgid "Sorry, you are not allowed to import content into this site."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:76
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:35
+#: inc/customizer/pages/homepage-header-hero-options.php:26
+msgid "Specific Category Posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:34
+#: inc/customizer/pages/homepage-featured-posts-options.php:76
+#: inc/customizer/pages/homepage-header-hero-options.php:25
+#: inc/customizer/pages/homepage-header-hero-options.php:66
+msgid "Specific Posts"
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:36
+#: inc/customizer/pages/homepage-header-hero-options.php:27
+msgid "Specific Tag Posts"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:244
+msgid "standard"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:78
+msgid "Standard Support"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:291
+#: inc/customizer/blog/social-media-options.php:91
+msgid "steam"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:592
+#: inc/widgets/class-rb-widget-social-networks.php:546
+msgid "steam URL:"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:26
+msgid "Sticky header on desktop"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:17
+msgid "Sticky header on mobile"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:41
+msgid "Sticky offset (px)"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:98
+msgid "Stretch all Footer sections content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:258
+msgid "Stretch Author Bio fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:217
+msgid "Stretch Blog Archives content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:218
+msgid "Stretch Blog Archives Description content fullwidth"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:54
+msgid "Stretch border bottom fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:257 inc/customizer/add-upsell.php:290
+msgid "Stretch content fullwidth"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:915
+msgid "Stretch Copyright border fullwidth"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:873
+msgid "Stretch Copyright fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:62
+msgid "Stretch CTA content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:144
+msgid "Stretch Featured Posts content fullwidth"
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:74
+msgid "Stretch footer fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:331
+msgid "Stretch Header and Home ads fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:74
+msgid "Stretch Header content fullwidth"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:72
+msgid "Stretch header top border fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:87
+msgid "Stretch Header Top content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:111
+msgid "Stretch Page Header content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:275
+msgid "Stretch Post Header content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:156
+msgid "Stretch Recent Posts content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:241
+msgid "Stretch Search Results content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:242
+msgid "Stretch Search Results Description content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:132
+msgid "Stretch section content fullwidth"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:20
+#: inc/customizer/add-title-dividers.php:101
+#: inc/customizer/add-title-dividers.php:155
+#: inc/customizer/add-title-dividers.php:295
+#: inc/customizer/add-title-dividers.php:331
+#: inc/customizer/add-title-dividers.php:349
+#: inc/customizer/add-title-dividers.php:376
+#: inc/customizer/add-title-dividers.php:394
+#: inc/customizer/add-title-dividers.php:421
+#: inc/customizer/add-title-dividers.php:448
+#: inc/customizer/add-title-dividers.php:475
+#: inc/customizer/add-title-dividers.php:493
+#: inc/customizer/add-title-dividers.php:529
+msgid "Styling"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:212
+msgid "Styling Footer"
+msgstr ""
+
+#: inc/customizer/add-title-dividers.php:248
+msgid "Styling Footer Copyright"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:55
+msgid "Styling options for section and widget titles"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:73
+msgid "Submit a review"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:102
+msgid "Submit an idea"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:295 inc/dashboard/tab-free-vs-pro.php:345
+#: inc/dashboard/tab-free-vs-pro.php:365
+msgid "Support for widgetable sidebar"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:262
+msgid ""
+"Tag (used if \"posts from tag\" option was selected in \"What posts to "
+"show\"):"
+msgstr ""
+
+#. Full pro features for the current section.
+#: inc/customizer/controls/class-rovenblog-upsell-message.php:49
+msgid ""
+"Take you blog to the next level with the powerful extra options available "
+"exclusively in Roven Blog Pro"
+msgstr ""
+
+#. Partial pro features for the current section.
+#: inc/customizer/controls/class-rovenblog-upsell-message.php:52
+msgid ""
+"Take you blog to the next level with the powerful extra options available in "
+"Roven Blog Pro"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:186
+msgid ""
+"Template powered live search for any WordPress theme. <strong>Enables the "
+"header search box to show live search results while a user types.</strong>"
+msgstr ""
+
+#: inc/customizer/navigation/cta-options.php:123
+msgid "Text Color CTA"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-text.php:21
+msgid "Text editor and device alignment."
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:170
+#: inc/customizer/navigation/header-options.php:66
+msgid "Text Logo"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:274
+msgid "Text logo color"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:132
+msgid ""
+"The #1 (unofficial) Mailchimp plugin. Allows you to add various sign-up "
+"methods to your WordPress site."
+msgstr ""
+
+#: sidebar-archive.php:16
+msgid ""
+"The Archive/Category Sidebar doesn't have any widgets to display. Add widgets"
+msgstr ""
+
+#: sidebar-author.php:16
+msgid ""
+"The Author Page Sidebar doesn't have any widgets to display. Add widgets"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:156
+msgid ""
+"The changelog contains a list of all the changes made to the theme from a "
+"version to another and can help you easily stay up to date with the "
+"theme&rsquo;s development."
+msgstr ""
+
+#. %s: theme name.
+#: inc/dashboard/tab-getting-started.php:57
+#, php-format
+msgid ""
+"The first thing you should do after installing and activating the %s theme "
+"is to install and activate the required plugins along with other plugins you "
+"might need."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:30
+#, php-format
+msgid ""
+"The following is a list of various plugins that can enhance you website in "
+"different ways. All the plugins listed here has been tested and are 100% "
+"compatible with the theme."
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:41
+msgid "The handle is used for Twitter social media share."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:344
+msgid ""
+"The help and support section contains the theme documentation and changelog. "
+"You can also download a child theme from there as well contact us regarding "
+"and problem you are facing with the theme."
+msgstr ""
+
+#: sidebar-home.php:16
+msgid "The Home Page Sidebar doesn't have any widgets to display. Add widgets"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:193
+msgid "The Kirki Customizer Framework plugin is installed but not activated."
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:51
+#: inc/dashboard/tab-getting-started.php:306
+msgid "The One Click Demo Import plugin is installed but not activated."
+msgstr ""
+
+#: 404.php:45
+msgid "The page you are looking for doesn't exist or has been moved."
+msgstr ""
+
+#: inc/customizer/pages/homepage-featured-posts-options.php:77
+msgid "The posts selected here will be shown in the featured section"
+msgstr ""
+
+#: inc/customizer/pages/homepage-header-hero-options.php:67
+msgid "The posts selected here will be shown in the header section"
+msgstr ""
+
+#: inc/dashboard/welcome-notice.php:59
+msgid ""
+"The Roven Blog theme is installed and active. We hope you enjoy using it! "
+"Please visit the theme&rsquo;s dasboard where we compiled a list of "
+"everything you need to get the most out of using it."
+msgstr ""
+
+#: sidebar-search.php:16
+msgid "The Search Sidebar doesn't have any widgets to display. Add widgets"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:18
+msgid "The size of body / paragraph text (px)."
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:42
+msgid ""
+"The sticky offset value is only needed so that the sticky header does not "
+"cover the sticky sidebar and the floating share"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:122
+msgid ""
+"The theme comes with detailed documentation that covers all aspect of "
+"setting up and working with the theme."
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:188
+msgid ""
+"The theme Customizer requires the Kirki plugin to be version 4.0.6 or higher."
+" Please update the plugin."
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:206
+msgid ""
+"The theme demo import requires the One Click Demo Import plugin to be "
+"version 3.0.0 or higher. Please update the plugin."
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:39
+msgid ""
+"The theme requires the <strong>One Click Demo Import</strong> plugin to be "
+"installed and activated in order to be able to import demos."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:96
+msgid ""
+"The Ultimate Customizer Framework for WordPress Theme Developers. <strong>"
+"Used to create the theme&rsquo;s customizable options in the Customizer."
+"</strong>"
+msgstr ""
+
+#: inc/template-functions.php:728
+msgid "The widgets added here will appear in the first column of the Footer"
+msgstr ""
+
+#: inc/template-functions.php:674
+msgid ""
+"The widgets added here will appear in the first column of the Top Header"
+msgstr ""
+
+#: inc/template-functions.php:755
+msgid "The widgets added here will appear in the fourth column of the Footer"
+msgstr ""
+
+#: inc/template-functions.php:737
+msgid "The widgets added here will appear in the second column of the Footer"
+msgstr ""
+
+#: inc/template-functions.php:683
+msgid ""
+"The widgets added here will appear in the second column of the Top Header"
+msgstr ""
+
+#: inc/template-functions.php:701
+msgid ""
+"The widgets added here will appear in the sidebar enabled for "
+"archive/category"
+msgstr ""
+
+#: inc/template-functions.php:710
+msgid ""
+"The widgets added here will appear in the sidebar enabled for author page"
+msgstr ""
+
+#: inc/template-functions.php:719
+msgid "The widgets added here will appear in the sidebar enabled for Search"
+msgstr ""
+
+#: inc/template-functions.php:692
+msgid ""
+"The widgets added here will appear in the sidebar enabled for the Home page"
+msgstr ""
+
+#: inc/template-functions.php:746
+msgid "The widgets added here will appear in the third column of the Footer"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:78
+msgid "Theme Dashboard"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:117
+msgid "Theme Dashboard Tabs"
+msgstr ""
+
+#: functions.php:69
+msgid "Theme Header Navigation Menu"
+msgstr ""
+
+#: functions.php:70
+msgid "Theme Mobile Navigation Menu"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:104 inc/dashboard/welcome-notice.php:81
+msgid "theme preview"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:115
+msgid "There are 3 types of import options available:"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:302
+msgid "There are no post categories."
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:279
+msgid "There are no post tags."
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:143
+msgid ""
+"There aren't any posts or posts that match the widgets display criteria. "
+"(this notice is visible only for logged in users that can add widgets)"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:94
+msgid ""
+"This page contains all the resources we think you might need in order to get "
+"the most out of using this theme."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:313
+msgid ""
+"This plugin cannot be updated because it is not compatible with your PHP "
+"version."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:295
+msgid ""
+"This plugin cannot be updated because it is not compatible with your "
+"WordPress and PHP version."
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:304
+msgid ""
+"This plugin cannot be updated because it is not compatible with your "
+"WordPress."
+msgstr ""
+
+#: inc/widgets/class-rb-widget-categories.php:105
+msgid ""
+"This widget cannot display anything because the selected categories were "
+"removed. (this notice is visible only for logged in users that can add "
+"widgets)"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-archives.php:77
+msgid ""
+"This widget cannot display anything because there aren't any post archives. "
+"(this notice is visible only for logged in users that can add widgets)"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-tag-cloud.php:62
+msgid ""
+"This widget cannot display anything because there aren't any tags created "
+"yet. (this notice is visible only for logged in users that can add widgets)"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-archives.php:105
+#: inc/widgets/class-rb-widget-categories.php:157
+#: inc/widgets/class-rb-widget-logo.php:237
+#: inc/widgets/class-rb-widget-posts.php:225
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:486
+#: inc/widgets/class-rb-widget-social-networks.php:450
+#: inc/widgets/class-rb-widget-tag-cloud.php:90
+#: inc/widgets/class-rb-widget-text.php:96
+msgid "Title:"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:26
+#: inc/customizer/blog/blog-archives-options.php:59
+#: inc/customizer/blog/search-results-options.php:26
+#: inc/customizer/pages/homepage-featured-posts-options.php:107
+#: inc/customizer/pages/homepage-header-hero-options.php:97
+#: inc/customizer/pages/homepage-recent-posts-options.php:36
+msgid "Total number of posts to show"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:213
+msgid "Translate WordPress plugins and themes directly in your browser"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:85
+msgid "Translation ready"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:159
+#: inc/customizer/blog/social-media-options.php:79
+msgid "tumblr"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:544
+#: inc/widgets/class-rb-widget-social-networks.php:498
+msgid "tumblr URL:"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:302
+#: inc/customizer/blog/social-media-options.php:92
+msgid "twitch"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:596
+#: inc/widgets/class-rb-widget-social-networks.php:550
+msgid "twitch URL:"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:15
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:126
+#: inc/customizer/blog/social-media-options.php:76
+msgid "twitter"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:532
+#: inc/widgets/class-rb-widget-social-networks.php:486
+msgid "twitter URL:"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:76
+msgid "Two extra alternative header layouts"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:97
+msgid "Two Extra footer section with up to 4 widgetable areas"
+msgstr ""
+
+#: inc/customizer/site-styling/typography-options.php:10
+msgid "Typography"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:31
+msgid ""
+"Unlock the full potential of you website by upgrading to the Pro version of "
+"the Roven Blog theme!"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:185 inc/customizer/add-upsell.php:194
+msgid "Up to 4 columns"
+msgstr ""
+
+#. %s: Plugin name and version.
+#: inc/dashboard/tab-plugins.php:384
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: functions.php:692
+msgid "Update canceled."
+msgstr ""
+
+#: functions.php:682
+msgid "Update completed successfully."
+msgstr ""
+
+#: functions.php:683
+msgid "Update failed: "
+msgstr ""
+
+#: functions.php:685 inc/dashboard/tab-plugins.php:386
+msgid "Update Now"
+msgstr ""
+
+#: functions.php:680
+msgid "Updated!"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:30
+msgid "Updates"
+msgstr ""
+
+#: functions.php:678
+msgid "Updating"
+msgstr ""
+
+#: functions.php:679
+msgid "Updating..."
+msgstr ""
+
+#: inc/customizer/controls/class-rovenblog-button-section.php:53
+#: inc/customizer/controls/class-rovenblog-upsell-message.php:81
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:307 inc/dashboard/tab-help-support.php:49
+#: inc/dashboard/tab-plugins.php:358 inc/dashboard/welcome-sidebar.php:22
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:114
+msgid "Upload Logo "
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:98
+#: inc/customizer/navigation/header-options.php:133
+msgid ""
+"Use for higher pixel density displays. Make sure this logo is at exactly "
+"twice the size ( width x height ) of the default logo for optimal results."
+msgstr ""
+
+#: inc/customizer/navigation/footer-options.php:60
+msgid "Vertical align center footer widgetable areas content"
+msgstr ""
+
+#: inc/customizer/navigation/header-top-options.php:44
+msgid "Vertical align center header top widgetable areas content"
+msgstr ""
+
+#: inc/dashboard/tab-help-support.php:164
+msgid "View Changelog"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:225
+#: inc/customizer/blog/social-media-options.php:85
+msgid "vimeo"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:568
+#: inc/widgets/class-rb-widget-social-networks.php:522
+msgid "vimeo URL:"
+msgstr ""
+
+#: template-parts/menus/header-menu2.php:282
+#: template-parts/menus/mobile-menu.php:34
+msgid "visit Menus edit page"
+msgstr ""
+
+#: sidebar-archive.php:16 sidebar-author.php:16 sidebar-home.php:16
+#: sidebar-search.php:16
+msgid "visit Widgets Area"
+msgstr ""
+
+#: inc/customizer/blog/authors-options.php:60
+#: inc/customizer/blog/blog-archives-options.php:93
+#: inc/customizer/blog/search-results-options.php:60
+#: inc/customizer/pages/homepage-featured-posts-options.php:145
+#: inc/customizer/pages/homepage-header-hero-options.php:120
+#: inc/customizer/pages/homepage-recent-posts-options.php:70
+msgid "Visual style"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:236
+#: inc/customizer/blog/social-media-options.php:86
+msgid "vk"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:572
+#: inc/widgets/class-rb-widget-social-networks.php:526
+msgid "vk URL:"
+msgstr ""
+
+#: inc/dashboard/welcome-sidebar.php:95
+msgid ""
+"We are always looking for ways to make our themes better, so if you have a "
+"suggestion please share it with us!"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:327
+msgid ""
+"We have detected that your user type isn't allowed to install plugins. If "
+"you set it up, then the easiest way to fix this is to make sure it is an "
+"administrator. If someone else set it up for you, contact them regarding "
+"this."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:154
+msgid ""
+"We have detected that your user type isn't allowed to update Customizer "
+"settings. If you set it up, then the easiest way to fix this is to make sure "
+"it is an administrator. If someone else set it up for you, contact them "
+"regarding this."
+msgstr ""
+
+#: inc/dashboard/tab-getting-started.php:383
+msgid ""
+"We prepared an in depth comparison between Roven Blog and Roven Blog PRO to "
+"help you figure out what version of the theme is right for your needs."
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:110
+msgid ""
+"We strongly recommend you create a backup of your website before importing "
+"content!"
+msgstr ""
+
+#: comments.php:90
+msgid "Website"
+msgstr ""
+
+#: inc/dashboard/welcome-main.php:14
+msgid "Welcome Page Free - Admin Roven Blog WordPress Theme"
+msgstr ""
+
+#. %s: theme name.
+#: inc/dashboard/welcome-notice.php:49
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/customizer/navigation/header-options.php:53
+msgid "What logo to display?"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-posts.php:233
+msgid "What posts to show:"
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:18
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/customizer/site-styling/layout-options.php:76
+msgid "Widget Title Styling"
+msgstr ""
+
+#: inc/customizer/add-upsell.php:77
+msgid "Widgetable area in the Offcanvas section"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:150
+msgid "Widgetable areas"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:315
+msgid "Widgetable sidebar"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:405
+msgid "Widgets and Widgetable Areas"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:149
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/customizer/shop/woocommerce-enhancements-options.php:10
+msgid "Woocommerce Enhancements"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:150
+msgid ""
+"WooCommerce is the world&rsquo;s most popular open-source eCommerce solution."
+" <strong>Use it to add a shop to your blog.</strong>"
+msgstr ""
+
+#: inc/dashboard/tab-free-vs-pro.php:480
+msgid "Woocommerce support"
+msgstr ""
+
+#: inc/customizer/sections-organize.php:97
+msgid "WordPress Core"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:214
+#: inc/customizer/blog/social-media-options.php:84
+msgid "xing"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:564
+#: inc/widgets/class-rb-widget-social-networks.php:518
+msgid "xing URL:"
+msgstr ""
+
+#: inc/dashboard/tab-plugins.php:158
+msgid "Yoast SEO "
+msgstr ""
+
+#: inc/customizer/pages/homepage-options.php:23
+msgid "You can use this option to rearrange or disable Home Page sections."
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:25
+msgid ""
+"You can use this option to rearrange or disable Social Media Share elements."
+msgstr ""
+
+#: inc/customizer/blog/social-media-options.php:50
+msgid ""
+"You can use this option to rearrange or disable Social Media Widgets "
+"elements."
+msgstr ""
+
+#: template-parts/posts/related-posts.php:40
+#: inc/customizer/blog/related-posts-options.php:20
+msgid "You might also like"
+msgstr ""
+
+#: inc/dashboard/tab-demo-sites.php:88 inc/dashboard/tab-getting-started.php:73
+#: inc/dashboard/tab-getting-started.php:263
+msgid "You need a higher level of permission."
+msgstr ""
+
+#: comments.php:84
+msgid "Your email address will not be published."
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:148
+#: inc/customizer/blog/social-media-options.php:78
+msgid "youtube"
+msgstr ""
+
+#: inc/widgets/class-rb-widget-social-networks-list-alt.php:540
+#: inc/widgets/class-rb-widget-social-networks.php:494
+msgid "youtube URL:"
+msgstr ""

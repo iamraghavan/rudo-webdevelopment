@@ -1,0 +1,875 @@
+/*
+ Theme Name:   Anymags Blog
+ Theme URI:    
+ Description:  Anymags Blog is child theme of anymags blog theme. Anymags Blog is free, personal, elegent WordPress blog theme. Anymags blog theme having setting in customizer and can check live change of settings. Anymags having topbar header, social icons, sidebar features and many more features. Anymags blog is a perfect responsive magazine style WordPress theme. This theme is suitable for news, newspaper, magazine, publishing, business and any kind of sites. Anymags is a 100% GPL and minimal WordPress blog theme. Also theme is Gutenberg ready. So it will work fie with the latest version of WordPress. Theme is compatible with all blocks and patterns of WordPress. This theme is developed based on customizer settings. You can see the live changes that you have made in customizer. Anymags also comes with added custom widgets for author, featured posts and social icons. It has top level menu, social icons, slider, promotional banner, sidebar option & many more other features. In addition, it has copyright text, go to the top, footer widgets, blog page options, related posts, sidebar, etc. This theme is lightweight and easy to use theme for travel blog, food blog, technology blog and fashion blog or any type of news website. You can also use this theme for personal blog and magazine sites too. Furthermore, it comes with demo data to make the site like the demo, detailed documentation including video and text, free support via chat and forum. It is developed by the experts WordPress developers so that you will never look for alternatives after using this theme. Try this awesome and carefully crafted theme today.
+ Author:       blogwp
+ Author URI:   
+ Template:     anymags
+ Version:      1.0.0
+ Requires at least: 5.5
+ Tested up to: 5.9
+ Requires PHP: 5.6
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         left-sidebar, right-sidebar, custom-logo, custom-menu, featured-images, footer-widgets, custom-colors, custom-header, theme-options, threaded-comments, blog
+ Text Domain:  anymags-blog
+*/
+* {
+  font-family: "Karla", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Karla", sans-serif;
+}
+
+.blog-sec-wp .blog-area .blog-content p {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+.blog-sec-wp .blog-area .blog-content .read-more i {
+  display: none;
+}
+
+.wrapper {
+  background: #000000;
+  padding: 10px 0;
+}
+
+.search_header_wrapper {
+  padding: 10px 0;
+}
+
+.search_header_wrapper .fa-search {
+  color: #fff;
+}
+
+.anymags-main-navigation ul.nav-menu > li:hover > a,
+.anymags-main-navigation ul.nav-menu > li.focus > a {
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .anymags-main-navigation ul ul li:hover > a,
+  .anymags-main-navigation ul ul li.focus > a {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.anymags-menu-toggle:hover,
+.anymags-menu-toggle:focus {
+  outline: 1px dotted #fff !important;
+}
+
+.slider-active .slick-track::before {
+  background-color: rgb(254, 235, 229);
+  position: absolute;
+  width: 590px;
+  height: 575px;
+  content: "";
+  right: 0;
+  bottom: 50px;
+  border-radius: 0 0px 10px 10px;
+}
+
+.slider-active .slick-dots {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+}
+.slider-active .slick-dots li button {
+  text-indent: -99999px;
+  border: none;
+  padding: 0;
+  height: 1px;
+  margin-left: 10px;
+  background: #fa346e;
+  border-radius: 50px;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.slider-active .slick-dots li.slick-active button {
+  width: 50px;
+  background: #fa346e;
+}
+.slider-active .slick-dots li.slick-active button::before {
+  background: url("../img/bg/active-dote.html");
+  opacity: 1;
+}
+.slider-active .slick-dots li button::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../img/bg/dote.html");
+  float: left;
+  position: relative;
+  margin-top: -9px;
+  left: -19px;
+  border-radius: 50%;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider-active .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 70px;
+  height: 60px;
+  width: 60px;
+  color: #fa346e;
+  font-size: 18px;
+  line-height: 65px;
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 9;
+  cursor: pointer;
+  padding: 0;
+  box-shadow: 4px 2px 0 0 transparent;
+  transition: 0.5s;
+}
+.slider-active .slick-next {
+  right: 70px;
+  left: auto;
+}
+.slider-active .slick-arrow:hover {
+  box-shadow: 4px 2px 0 0 #fa346e;
+}
+
+.box-slider-post {
+  margin: 0 15px;
+  position: relative;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.category-post-slider-active {
+  margin: 0 -760px;
+}
+
+.box-slider-post .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  z-index: 1;
+}
+.box-slider-post .text h5,
+.box-slider-post .text h3 {
+  color: #fff;
+}
+.box-slider-post .text h3 {
+  font-size: 38px;
+}
+.box-slider-post .text .post-tags {
+  margin-bottom: 10px;
+}
+.box-slider-post .text .post-tags li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.box-slider-post .text .post-tags li a {
+  color: #fff;
+}
+
+.box-slider-post .text .post-tags .slider-cat {
+  padding: 1px 10px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.box-slider-post img {
+  height: 700px !important;
+  width: 100%;
+}
+
+.box-slider-post .text h3 a {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.wp-header .logo-area a {
+  font-size: 48px;
+  color: #cfac9f;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.post-tags .byline {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.post-tags .icon {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.box-slider-post {
+  position: relative;
+}
+
+.box-slider-post:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.5;
+  left: 0;
+  background: #000;
+}
+
+.slick-prev {
+  left: 27%;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  z-index: 3;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:before {
+  content: "←";
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 2;
+  opacity: 0.75;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next {
+  right: 27%;
+}
+
+.slick-next:before {
+  content: "→";
+}
+.slick-prev,
+.slick-next {
+  background: #fff;
+  height: 44px;
+  width: 44px;
+}
+
+.wp-header .logo-area a {
+  font-size: 48px;
+  color: #f70d28;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+#myBtn {
+  background-color: #f70d28;
+}
+
+.wp-block-search .wp-block-search__button {
+  background-color: #f70d28;
+  color: #fff;
+}
+
+.blog-sec-wp .blog-user-details li i {
+  color: #f70d28;
+}
+
+.sidebar .widget .wp-block-group .wp-block-group__inner-container h2:before,
+.sidebar .widget h2:before {
+  background-color: #f70d28;
+}
+
+.wp-block-latest-comments__comment-meta {
+  color: #f70d28;
+}
+
+.blog-sec-wp .sidebar .widget_archive ul li a:before,
+.blog-sec-wp .sidebar .wp-block-archives li a:before {
+  color: #f70d28;
+}
+
+.sidebar .widget_categories ul .cat-item::before,
+.sidebar .wp-block-categories .cat-item::before {
+  color: #f70d28;
+}
+
+.blog-sec-wp .paging-navigation .navigation .current {
+  background: #f70d28;
+  border-color: #f70d28;
+}
+
+.blog-sec-wp .blog-area .blog-content .read-more:hover {
+  background-color: #f70d28;
+}
+
+.blog-sec-wp .paging-navigation .navigation a:hover {
+  background-color: #f70d28;
+  border-color: #f70d28;
+}
+
+.sidebar ul li a:hover {
+  color: #f70d28 !important;
+  text-decoration: underline !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .anymags-main-navigation ul ul li:hover > a,
+  .anymags-main-navigation ul ul li.focus > a {
+    background-color: #f70d28;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .slick-next {
+    right: 30%;
+  }
+
+  .slick-prev {
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  /*.add-banner{
+    text-align: center !important;
+    width: 100% !important;
+  }*/
+  
+
+  .wp-header .logo-area {
+    width: 100% !important;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .wp-header .anymag_topbar .topbar-left ul {
+    text-align: center !important;
+    padding-top: 15px;
+  }
+
+  .wp-header .anymag_topbar .topbar-left {
+    width: 100% !important;
+  }
+  .slick-next {
+    right: 40%;
+  }
+
+  .slick-prev {
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .wp-header .anymag_topbar .topbar-right{
+    width: 80% !important;
+  }
+
+  .menu_w {
+            width: 100% !important;
+    }
+
+   .header-search {
+      width: 100% !important;
+    }
+  .slick-next {
+    right: 40%;
+  }
+
+  .slick-prev {
+    left: 40%;
+  }
+
+  .box-slider-post .text h3 {
+    font-size: 14px !important;
+  }
+
+  .posts-sider {
+    padding-top: 40px;
+    width: 100% !important;
+    margin: auto;
+  }
+}
+
+.posts-sider {
+  padding-top: 40px;
+  width: 83%;
+  margin: auto;
+}
+
+.wp-header .logo-area {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.wp-header .anymag_topbar .topbar-left ul li a:hover {
+  color: #f70d28;
+}
+
+.wp-header .anymag_topbar .topbar-left {
+  width: 85%;
+}
+
+.wp-header .anymag_topbar .topbar-left ul {
+  text-align: right;
+}
+
+.wp-header .anymag_topbar #topbar-menu li a:after {
+  background-color: rgb(247 13 40);
+}
+
+.wp-header .anymag_topbar ul li a:hover,
+.wp-header .anymag_topbar ul li span:hover {
+  color: #f70d28;
+  text-decoration: underline !important;
+}
+
+.anymags-main-navigation ul.nav-menu .current_page_item > a,
+.anymags-main-navigation ul.nav-menu .current-menu-item > a,
+.anymags-main-navigation ul.nav-menu .current_page_ancestor > a,
+.anymags-main-navigation ul.nav-menu .current-menu-ancestor > a {
+  color: #f70d28;
+}
+
+blockquote::before {
+  color: #f70d28;
+}
+
+.blog-content ul li a {
+  color: #f70d28 !important;
+}
+
+.navigation-blog .navi-item .navi-text .name-navi {
+  color: #f70d28;
+}
+
+.comments-area .comment-respond .comment-form .form-submit .submit:hover {
+  background: #f70d28;
+}
+
+.comments-area .comment-respond .comment-form .form-submit .submit {
+  background: #f70d28;
+}
+
+.blog-sec-wp .content-part a {
+  text-decoration: underline !important;
+  color: #f70d28 !important;
+}
+
+#myBtn:hover {
+  background-color: #f70d28;
+}
+
+.blog-sec-wp .blog-area .blog-content .title a:hover {
+  color: #f70d28;
+}
+
+.wp-header .anymag_topbar ul li a:focus,
+.wp-header .anymag_topbar ul li span:focus {
+  color: #f70d28;
+}
+
+.wp-header .anymag_topbar .topbar-left ul li a:focus {
+  color: #f70d28;
+}
+
+.page-content .search-form:after {
+  display: none;
+}
+
+.sticky-nav.anymags-blog-sticky {
+  margin-top: 32px;
+}
+
+.sticky-nav.anymags-blog-customize-preview {
+  margin-top: 32px;
+}
+
+.sticky-nav {
+  top: 0;
+  position: fixed;
+  -webkit-animation: 900ms ease-in-out 5s normal none 1 running fadeInDown;
+  animation: 900ms ease-in-out 5s normal none 1 running fadeInDown;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  width: 100% !important;
+  z-index: 999;
+}
+
+.sticky-nav .main-nav {
+  top: 0;
+  background-color: #028580;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding: 0 !important;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.sticky-nav .navbar {
+  padding: 5px 0 !important;
+}
+
+.menu_w {
+  width: 71%;
+}
+
+.header-search > .search-btn {
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+    top: 0px;
+    width: 44px;
+    background: none;
+    border: none;
+}
+
+.header-search > .search-btn:focus{
+    outline: 1px dotted #fff;
+}
+
+
+.header-search > .search-btn:hover {
+    color: #ff0000;
+}
+
+.header-search > .search-btn > span {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+}
+
+
+.header-search-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.85);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+}
+
+form.search-form:before, 
+form.search-form:after {
+    content: "";
+    display: table;
+    height: 0;
+    width: 0;
+}
+
+form.search-form:after {
+    clear: both;
+}
+
+form.search-form {
+    border: 1px solid #e5e5e5;
+}
+
+.header-search-form form.search-form {
+    max-width: 600px;
+    margin: auto;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: none;
+}
+
+.search-form > label {
+    font-family: 'Marcellus', serif;
+    color: #fff;
+    font-size: 1.667em;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0;
+}
+
+.search-form label > input.search-field {
+    float: left;
+    width: calc(100% - 60px);
+    background: #fff;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    height: 60px;
+    color: #000;
+}
+
+.header-search-form .search-form label > input.search-field {
+    font-size: 1.33em;
+    padding-left: 15px;
+    outline: none;
+}
+
+.header-search-form .search-form label > input.search-field:focus{
+    border:2px dotted #000;
+
+}
+
+.search-form .search-submit:focus{
+    border: 2px dotted #fff;
+}
+
+.wp-block-search .wp-block-search__button {
+     background-color: #ff0000;
+     color: #fff;
+}
+
+.wp-block-search .wp-block-search__input {
+    padding-left: 10px;
+}
+
+
+.search-icon{
+    fill: white;
+}
+
+.search-form .search-submit {
+    outline: none;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0;
+    padding: 0;
+    border: 2px solid #fff;
+    position: relative;
+    font-size: 1.33em;
+    line-height: 55px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #ff0000;
+    background-image: url('data:image/svg+xml;utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23fff" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: 60px;
+    overflow: hidden;
+}
+
+.search-form .search-submit:hover {
+    background-color: #f15641;
+    background-image: url('data:image/svg+xml;utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23fff" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.header-search{
+    width: 80%;
+    line-height: 3;
+}
+
+.header-search-form .close:focus{
+    outline: 2px dotted #fff;
+}
+
+.header-search-form .close {
+    background: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    border: none;
+    right: 40px;
+    cursor: pointer;
+}
+
+.header-search-form .close:before, 
+.header-search-form .close:after {
+    content: "";
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.header-search-form .close:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.header-search-form .close:hover:before, 
+.header-search-form .close:hover:after {
+    background: #f15641;
+}
+
+.anymags-main-navigation form.search-form .search-submit {
+    background-color: #000;
+    border-color: #fff;
+    color: #111;
+}
+
+.blog-sec-wp .blog-area .blog-content .title a:focus {
+    color: #f70d28;
+}
+
+.blog-sec-wp .blog-area .blog-content .read-more:focus {
+    background-color: #f70d28;
+    color: #fff;
+}
+
+.sidebar ul li a:focus {
+    color: #f70d28 !important;
+    text-decoration: none !important;
+}
+
+.box-slider-post img {
+    height: 800px !important;
+    width: 76%;
+}
+
+.footer-section .footer-top ul li a:focus {
+    color: #f70d28 !important;
+}
+
+.footer-section .footer-top ul li a:hover {
+    color: #f70d28 !important;
+}
+
+.sidebar a, .logged-in-as a, .navigation-blog a, .paging-navigation a {
+    text-decoration: none !important;
+    color: #f70d28;
+}
+
+.comments-area .comment-list .comment .comment-body .comment-content p a {
+    color: #f70d28;
+}
+
+.blog-area .blog-content p a {
+   text-decoration: underline !important;
+   color: #f70d28;
+}
+
+.wp-header .anymag_topbar .topbar-right ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: right;
+}
+
+.wp-header .anymag_topbar {
+    width: 100%;
+    padding: 10px 0;
+    background: #000;
+}
+
+.wp-header .anymag_topbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+
+.wp-header .anymag_topbar .topbar-right{
+  width: 46%;
+}
+
+.wp-header .anymag_topbar ul li a {
+    position: relative;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.wp-header .anymag_topbar #topbar-menu li a:after {
+  background-color: rgb(247 13 40);
+}
+
+.wp-header .anymag_topbar #topbar-menu li a:after {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 2px;
+    margin-right: -10px;
+    top: 3px;
+    right: 0;
+    margin-right: -12px;
+}
+
+.add-banner{
+  text-align: right;
+  width: 88%;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.anymags_index{
+  width: 84% !important;
+}
