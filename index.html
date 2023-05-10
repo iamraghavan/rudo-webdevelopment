@@ -11,6 +11,10 @@
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
   <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <title>RuDo</title>
 </head>
 
@@ -39,8 +43,7 @@
       <div class="row mt-lg-5">
         <div class="col-sm-12 col-md-6 text-center text-lg-start p-4">
           <p>Small Todays, Big Tomorrows</p>
-          <span class="fs-2 fs-lg-1">RuDo helps you to <span class="text-info">save, invest, & build</span> long term
-            wealth</span>
+          <span class="fs-2 fs-lg-1"><b>Save, Invest, & Build Wealth</b></span>
           <p class="fs-6 my-3 ">Empowering the Uninvested and Underinvested to achieve long-term wealth through micro
             saving, automated investing, and financial education.</p>
           <button class="btn btn-info d-flex align-items-center justify-content-evenly mx-auto mx-lg-0"
@@ -55,7 +58,44 @@
     </div>
   </section>
 
+<style>
+  .containerbox{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
 
+text-align: center;
+  }
+
+  .containerbox-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+/* Text/T-50 */
+
+color: #FEFEFE;
+  }
+
+
+  .containerbox-img{
+    width: auto !important;
+    height: auto !important;
+
+    margin: 10px 10px 20px 10px;
+
+  }
+  
+
+</style>
 
 
   <!-- invest-ways -->
@@ -68,31 +108,32 @@
       <div class="row">
         <div class="col-lg-4 col-sm-12">
           <div class="card" style="background-color: rgb(48, 48, 76);">
-            <div class="card-body d-flex flex-column align-items-center justify-content-evenly" style="height: 20rem;">
-              <img src="./images/cards/convert-card.svg" alt="" style="width: 60px;height: 60px;">
-              <p class="fs-6 text-center">Automatic Recurring</p>
-              <p class="fs-6 d-flex justify-content-center align-items-center" style="color: #A7B5BE;height: 30%;">Make investing a habit with recurring investments - daily, weekly,
+            <div class="card-body d-flex flex-column align-items-center justify-content-evenly">
+              <img src="./images/cards/convert-card.svg" alt="" class="containerbox-img">
+              <p class="fs-6 text-center containerbox-title">Automatic Recurring</p>
+              <p class="fs-6 d-flex justify-content-center align-items-center containerbox">Make investing a habit with recurring investments daily, weekly,
                 or monthly. Start small, try AED 20 a day.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 my-5 my-lg-0">
           <div class="card" style="background-color: rgb(48, 48, 76);">
-            <div class="card-body d-flex flex-column align-items-center justify-content-evenly" style="height: 20rem;">
-              <img src="./images/cards/cards.png" alt="" style="width: 60px;height: 60px;">
-              <p class="fs-6 text-center">Automatic Portfolio Rebalancing</p>
-              <p class="fs-6 d-flex justify-content-center align-items-center" style="color: #A7B5BE;height: 30%;">We'll rebalance your portfolio to maintain your allocation in line
+            <div class="card-body d-flex flex-column align-items-center justify-content-evenly">
+              <img src="./images/cards/cards.png" alt="" class="containerbox-img">
+              <p class="fs-6 text-center containerbox-title">Automatic Portfolio Rebalancing</p>
+              <p class="fs-6 d-flex justify-content-center align-items-center containerbox" >We'll rebalance your portfolio to maintain your allocation in line
                 with your long-term financial goals.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12">
           <div class="card" style="background-color: rgb(48, 48, 76);">
-            <div class="card-body d-flex flex-column align-items-center justify-content-evenly" style="height: 20rem;">
-              <img src="./images/cards/coin.svg" alt="" style="width: 60px;height: 60px;">
-              <p class="fs-6 text-center">Automatic Dividend Reinvesting</p>
-              <p class="fs-6 d-flex justify-content-center align-items-center" style="color: #A7B5BE;height: 35%;">We will automatically reinvest the <br> dividends you
+            <div class="card-body d-flex flex-column align-items-center justify-content-evenly">
+              <img src="./images/cards/coin.svg" alt="" class="containerbox-img">
+              <p class="fs-6 text-center containerbox-title">Automatic Dividend Reinvesting</p>
+              <p class="fs-6 d-flex justify-content-center align-items-center containerbox" >We will automatically reinvest the <br> dividends you
                 earn on your investments. </p>
+                <br>
             </div>
           </div>
         </div>
