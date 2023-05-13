@@ -1,6 +1,4 @@
-**# rudo-webdevelopment**
 # Hi, I'm Pradeep Raghavan! 👋
-
 
 # Rudo Wealth - Web Development Project
 
